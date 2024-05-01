@@ -37,8 +37,8 @@ function Home() {
         <Navbarhead/>
         <header className='h-100 p-3  min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center mt-5'>
-                <h2>Welcome To</h2>
-                <h1 className='text-center fw-semibold'>KHALSA GIRLS COLLEGE SADUL SHAHAR</h1>
+                <h4>Welcome To</h4>
+                <h3 className='text-center fw-semibold'>KHALSA GIRLS COLLEGE SADUL SHAHAR</h3>
                 <p>Khalsa Girls College  has a reckoning reputation of being one of the most renowned premier postgraduate institutions, engaged at all times in the holistic development of women. The major strengths of the college are:Commitment towards enhancing Academic Excellence resulting in laudable achievements in academics and para- academics.Hub of Sports Excellence with an outshining track record.Centre for Development of Pedagogical Excellence with admirable achievements.Multi-faculty college offering an array of UG and PG courses along with Value added and Vocational Courses.
 Excellent Infrastructural and Learning Resources. State of art auditorium and open air theatre provide a stage for various co curricular activities.
 </p>

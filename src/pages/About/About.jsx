@@ -36,7 +36,7 @@ function About() {
     <Navbarhead/>
     <header className='h-75 p-3  d-flex align-items-center text-light'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h1 className='text-center fw-semibold'>About Us</h1>
+                <h3 className='text-center fw-semibold'>About Us</h3>
                 <p className='text-center w-75 mb-5'>Khalsa Girls College Sadulshahar, nestled in Ward No.4 near the Municipality Office, embodies the serene beauty of nature and the revered ideals of ancient Gurukuls. Established in 1972-73 by the visionary Mr. Mohar Singh Sidhu as a primary school, it has since evolved into a Higher Primary School (1978-79), Secondary School (1989-90), and Higher Secondary School (2001), dedicated to serving society. </p> </div>
         </header>
 

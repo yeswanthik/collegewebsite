@@ -121,7 +121,7 @@ function Contact() {
         <Navbarhead/>
         <header className='h-35 p-3   d-flex align-items-center text-light'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h1 className='text-center fw-semibold'>Register with us</h1>
+                <h3 className='text-center fw-semibold'>Register with us</h3>
                 {/* <p className='text-center w-75 mb-5'>
 Our college provides a direct line of communication for inquiries and assistance, ensuring swift and personalized responses to queries from students, parents, and stakeholders. With dedicated forms and contact details readily available, individuals can effortlessly reach out to address their concerns and engage with the college community.</p>
            */}

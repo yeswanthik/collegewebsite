@@ -70,9 +70,9 @@ const galleryImge = [
 function Gallery(){
 return <div className='gallery-page'>
 <Navbarhead/>
-<header className='h-100 p-3  min-vh-100 d-flex align-items-center text-light'>
-    <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-        <h1 className='text-center fw-semibold'>Gallery</h1>
+<header className='h-50 p-3  d-flex justify-content-center text-light'>
+    <div className='container h-100 d-flex flex-column align-items-center  text-light mt-5'>
+        <h3 className='text-center fw-semibold'>Gallery</h3>
         <p className='text-center w-75 mb-5'>The college gallery offers a vibrant space for showcasing creativity and talent within the campus community. Adorned with diverse artworks and installations, it fosters inspiration and dialogue among students and visitors. Through student exhibitions and guest artist showcases, the gallery stimulates artistic exploration and collaboration. Its dynamic displays enrich the campus experience, encouraging intellectual curiosity and cultural engagement.</p>
     </div>
 </header>

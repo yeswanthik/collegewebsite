@@ -39,7 +39,7 @@ function Courses() {
         <header className='h-35 p-3 d-flex align-items-center text-light'>
         
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h1 className='text-center fw-semibold'>Our Courses</h1>
+                <h3 className='text-center fw-semibold'>Our Courses</h3>
                 <p className='text-center w-75 mb-5'>Courses we offer and its listed subjects </p>
     
      </div>

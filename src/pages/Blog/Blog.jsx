@@ -74,7 +74,7 @@ function Blog() {
     <Navbarhead/>
     <header className='h-35 p-3   d-flex align-items-center text-light'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h1 className='text-center fw-semibold'>Blogs</h1>
+                <h3 className='text-center fw-semibold'>Blogs</h3>
                 <p className='text-center w-75 mb-5'>College blogs serve as informative platforms where students, faculty, and staff can share insights, experiences, and valuable information about campus life, academic programs, extracurricular activities, and more.</p>
             </div>
         </header>
