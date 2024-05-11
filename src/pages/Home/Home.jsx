@@ -4,13 +4,12 @@ import { Link,  useNavigate } from 'react-router-dom';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import StartCoursesImg from '../../utils/images/start-courses-img.jpg';
 import { Card } from 'react-bootstrap';
-import President from  '../../utils/images/president.jpg';
-import Principal from '../../utils/images/g9.JPG'
-import Director from '../../utils/images/director.jpg'
+import President from  '../../utils/images/SukPresident.jpg';
+import Secretary from '../../utils/images/president.jpg'
 import { Navbarhead } from '../../components/Navbar/Navbar';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-
+import Chairman from '../../utils/images/tressurer.png'
 import Gallery1 from '../../utils/images/gallery1.jpeg'
 import Gallery2 from '../../utils/images/gallery2.jpeg'
 import Gallery3 from '../../utils/images/gallery3.jpeg'
@@ -30,19 +29,22 @@ const blogs = [
         id: 1,
         img: [President],
         title: 'President',
-        description: 'Khalsa Girls College Sadulshahar, is a renowned institute of higher education.It claims pre-eminence throughout the world because it has its roots in the lofty ideals of the Great Gurus and presently moves towards the future with a visionary outlook. '
-    },{
+        name:'Sukhvinder Singh Lalgharia',
+        description: 'Indian culture creates unity in diversity and the confluence of education and service is the ideal of Indian culture. We can see Indian culture only through the mirror of education. We can get rid of the poison of selfishness and ego only through education. Therefore, by drinking the nectar of knowledge and leading a life of service, make your life meaningful and provide progress to the society.'
+      },{
         id: 2,
-        img: [Principal],
-        title: 'Principal',
-        description: 'Educated man is an asset to the society. He can be a harbinger of social, economics and ethical change. The time after plus two is the most crucial phase in the life of a student. '
-    },
+        img: [Chairman],
+        title: 'Chairman',
+        name:'Sukhwinder Kaur Sidhu',
+        description: 'You are heartily welcome to Khalsa Girls College. Inspired by the saying that wealth of education increases by sharing, the college was earlier established as Khalsa Model Primary School to enrich this area with wealth of knowledge.'
+         },
     {
         id: 3,
-        img: [Director],
-        title: 'Director',
-        description: 'Like the golden history of the institution, its present is also very glorious. The students of the institution have made the institution proud at the national and international level by achieving excellent achievements in all fields.' 
-    }
+        img: [Secretary],
+        title: 'Secretary',
+        name:'Mohar Singh Sidhu',
+        description: '​Educated man is an asset to the society. He can be a harbinger of social, economics and ethical change. The time after plus two is the most crucial phase in the life of a student. It can be a turning point in his career. Higher Education can transform his life. The diligent efforts put in by the student at this point of time will help him reap life long benefits.'
+        }
 ];
 
 function Home() {
@@ -149,7 +151,7 @@ Khalsa Girls College prides itself on having an exceptional management team and 
 </div>
 {blogs.map((blog) => (
                         
-                        <div key={blog.id} className='col-md-6 col-lg-4'>
+                        <div key={blog.id} className='col-xs-12 col-md-6 col-lg-4'>
                             <Link to="/management" className='text-decoration-none'>
                                 <Card className='h-100 shadow scale-hover-effect'>
                                     <Card.Img variant="top" width={100} height={250} src={blog.img} />

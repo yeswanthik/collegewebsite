@@ -12,6 +12,7 @@ import Admission from './components/Admission/Admission';
 import Careers from './pages/Careers/Careers';
 import Director from './components/Management/Director';
 import Principal from './components/Management/Principal';
+import Chairman from './components/Management/Chairman';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path='/gallery' element={<Gallery/>} />
         <Route path='/management' element={<Management/>}/>
         <Route path='/director' element={<Director/>}/>
+        <Route path='/chairman' element={<Chairman/>}/>
+
         
         <Route path='/principal' element={<Principal/>}/>
         <Route path='/admission' element={<Admission/>}/>

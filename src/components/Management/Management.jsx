@@ -1,11 +1,11 @@
 import React from 'react';
 import { Navbarhead } from '../../components/Navbar/Navbar';
-import Tressurer from '../../utils/images/tressurer.png'
 import Principal from '../../utils/images/g9.JPG'
 import DirectorImage from '../../utils/images/director.jpg'
-import VP from '../../utils/images/vicepresident.jpg'
-import President from  '../../utils/images/president.jpg';
 
+import President from  '../../utils/images/SukPresident.jpg';
+import Secretary from '../../utils/images/president.jpg'
+import Chairman from '../../utils/images/tressurer.png'
 
 
 function Management() {
@@ -16,10 +16,27 @@ function Management() {
     <div className="row" style={{paddingBottom:"2px"}}>
 			<div className="col-md-12 text-center" style={{paddingBottom:"2px"}}>
 				<div className="about_title" style={{paddingBottom:"2px"}}>
-					<h2>Message From Management</h2>
+					<h2>Management</h2>
 				</div>
 			</div>
 		</div>
+        <div className="row">
+    
+<div className='col-lg-4 d-flex mt-5 '>
+                    <img src={President} className='img-fluid w-75 h-75'  alt="" />
+                </div>
+                <div className='col-lg-8 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
+   
+            <div className='ml-3 p-3  container h-100 d-flex flex-column  justify-content-center text-dark'>
+                <h3 className=' fw-semibold'>Dear Friends,</h3>
+                <p className='mb-3'>Indian culture creates unity in diversity and the confluence of education and service is the ideal of Indian culture. We can see Indian culture only through the mirror of education. We can get rid of the poison of selfishness and ego only through education. Therefore, by drinking the nectar of knowledge and leading a life of service, make your life meaningful and provide progress to the society.
+Vidya's feet start moving forward on their own to pick up the fallen, move the fallen and embrace the victim. According to Shri Guru Nanak Dev Ji, serving others is the greatest service. Therefore, adopting his ideals, the organization, with a spirit of service, is functional for the last four decades. Morality, discipline, tolerance, secularism are the pillars of this institution and due to which it is continuously moving on the path of progress.
+With best wishes from the entire school family</p>
+<p style={{fontWeight:"bold"}}>Sukhvinder Singh Lalgharia,
+President </p></div>
+
+</div>
+</div>
             <div className="row">
                 <div className='col-lg-8 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
    
@@ -36,13 +53,13 @@ Secretary </p></div>
 
 </div>
 <div className='col-lg-4 d-flex  mt-5 '>
-                    <img src={President} className='img-fluid w-75 h-75'  alt="" />
+                    <img src={Secretary} className='img-fluid w-75 h-75'  alt="" />
                 </div>
 </div>
 <div className="row">
     
 <div className='col-lg-4 d-flex mt-5 '>
-                    <img src={VP} className='img-fluid w-75 h-75'  alt="" />
+                    <img src={Chairman} className='img-fluid w-75 h-75'  alt="" />
                 </div>
                 <div className='col-lg-8 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
    
@@ -52,38 +69,38 @@ Secretary </p></div>
 Vidya's feet start moving forward on their own to pick up the fallen, move the fallen and embrace the victim. According to Shri Guru Nanak Dev Ji, serving others is the greatest service. Therefore, adopting his ideals, the organization, with a spirit of service, is functional for the last four decades. Morality, discipline, tolerance, secularism are the pillars of this institution and due to which it is continuously moving on the path of progress.
 With best wishes from the entire school family</p>
 <p style={{fontWeight:"bold"}}>Sukhvinder Singh Lalgharia,
-President </p></div>
+Chairman/Manager </p></div>
 
 </div>
 </div>
-<div className="row">
+{/* <div className="row">
                 <div className='col-lg-8 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
    
             <div className='ml-3 p-3  container h-100 d-flex flex-column  justify-content-center text-dark'>
                 <h3 className=' fw-semibold'>Dear Friends,</h3>
-                <p className='mb-3'>Khalsa Girls College Sadul Shahar was established in 2007-08 with an aim to provide quality education to students at under graduate and post graduate level. Situated in the heart of  city of Sadul Shahar in a convivial atmosphere, the college is taking huge strides to provide premium education to its students. The College ensures that its students do not just accumulate degrees but also become worthy of getting placed. Here the aim is not just to provide knowledge but also to encourage them to apply their minds. Every effort is made to chisel them to develop their creative edge.
-
-I have the greatest satisfaction of serving the cause of higher education through  Khalsa Girls College Sadul Shahar . It was the vision and dream of our Sikh Gurus to provide and equip our youth with knowledge and skills that would prepare them for global opportunities.
-
-Today I am elated to see our college serving the needs of not only the community within Sadul Shahar but also the students coming from nearby cities and villages  for varied courses . We will not rest on our laurels but continue to enhance the quality of higher education by collaborating with experts from across the globe We will pursue every path to justify you as leader in higher education.
-As Education is an investment in future It not only broadens the horizons of an individual’s thinking, but opens up possibilities for the collective growth of community nation and civilized world of mankind.
-To ensure that the students are able to face any challenge, the college has various value added programmes and personality development classes. Giving back to society is an integral part of the vision of institute.​ ​​​​​​​</p>
-<p style={{fontWeight:"bold"}}>S.Gurjeet Singh Sidhu​​​,
+                <p className='mb-3'>
+                You are heartily welcome to Khalsa Girls College. Inspired by the saying that wealth of education increases by sharing, the college was earlier established as Khalsa Model Primary School to enrich this area with wealth of knowledge.
+                     ​</p>
+                     <p className='mb-3'>
+                     Considering the spread of education and the need of the area, the school was upgraded to higher secondary and then to high school level. Due to phased development, this institution, not only in Sadulshahar, but among the leading institutions of Rajasthan, holds a special place.
+                     </p>
+                     <p className='mb-3'>
+                     In the institution, efforts are made for the all-round development of the personality of the students and all efforts are made in such a direction that the students can find the path to their progress by adopting social diversities in practical life. I am sure that you will have all the necessary facilities available in the institution and you will get a suitable environment for study and contemplation. With best wishes for your bright future...
+</p>
+                     <p style={{fontWeight:"bold"}}>S.Gurjeet Singh Sidhu​​​,
 Treasurer</p></div>
 </div>
 
 <div className='col-lg-4 d-flex mt-5'>
-                    <img src={Tressurer} className='img-fluid w-75 h-75'  alt="" />
+                    <img src={Chairman} className='img-fluid w-75 h-75'  alt="" />
                 </div>
 
 
 
-</div>
+</div> */}
 <div className="row">
 
-<div className='col-lg-4 d-flex mt-5 ml-4'>
-                    <img src={DirectorImage} className='img-fluid w-75 h-75 '  alt="" />
-                </div>
+
                 <div className='col-lg-8 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
 
             <div className=' p-3  container h-100 d-flex flex-column  justify-content-center text-dark'>
@@ -103,6 +120,9 @@ Treasurer</p></div>
 Director </p></div>
 
 </div>
+<div className='col-lg-4 d-flex mt-5 ml-4'>
+                    <img src={DirectorImage} className='img-fluid w-75 h-75 '  alt="" />
+                </div>
 </div>
 <div className="row">
     
@@ -116,8 +136,8 @@ Director </p></div>
                 <p className='mb-3'>You are heartily welcome to Khalsa Girls College. Inspired by the saying that wealth of education increases by sharing, the college was earlier established as Khalsa Model Primary School to enrich this area with wealth of knowledge.
 Considering the spread of education and the need of the area, the school was upgraded to higher secondary and then to high school level. Due to phased development, this institution, not only in Sadulshahar, but among the leading institutions of Rajasthan, holds a special place.
 In the institution, efforts are made for the all-round development of the personality of the students and all efforts are made in such a direction that the students can find the path to their progress by adopting social diversities in practical life. I am sure that you will have all the necessary facilities available in the institution and you will get a suitable environment for study and contemplation. With best wishes for your bright future...</p>
-<p style={{fontWeight:"bold"}}>Sukhwinder Kaur Sidhu
-Manager / Chairman  </p></div>
+<p style={{fontWeight:"bold"}}>Dr. Jyothi Chhabra 
+Principal  </p></div>
 
 </div>
 </div>
