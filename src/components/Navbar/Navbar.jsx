@@ -158,7 +158,7 @@ export const Navbarhead=()=>{
 
           </NavDropdown>
          
-          {/* <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link>
+          {/* 
           <Nav.Link href='/gallery' className='text-uppercase'>Gallery</Nav.Link> */}
           
           <Nav.Link href='/careers' className=' text-light '>Jobs@KGC</Nav.Link>
