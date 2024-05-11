@@ -2,11 +2,6 @@ import React from 'react';
 import './Blog.css';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
-import Blog5Img from '../../utils/images/blog5-img.jpg';
-import Blog6Img from '../../utils/images/blog6-img.jpg';
-import Blog7Img from '../../utils/images/blog7-img.jpg';
-import Blog8Img from '../../utils/images/blog8-img.jpg';
-import Blog9Img from '../../utils/images/blog9-img.jpg';
 import { Navbarhead } from '../../components/Navbar/Navbar';
 import Ragging from '../../utils/images/ragging.png'
 import Library from "../../utils/images/library.jpg"

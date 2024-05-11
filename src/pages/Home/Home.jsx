@@ -3,7 +3,7 @@ import './Home.css';
 import { Link,  useNavigate } from 'react-router-dom';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import StartCoursesImg from '../../utils/images/start-courses-img.jpg';
-import { Card, Container } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import President from  '../../utils/images/president.jpg';
 import Principal from '../../utils/images/g9.JPG'
 import Director from '../../utils/images/director.jpg'

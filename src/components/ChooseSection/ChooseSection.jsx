@@ -1,44 +1,13 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Library from "../../utils/images/library.jpg"
-import Lab from "../../utils/images/lab.jpg"
-import Auditorium from "../../utils/images/auditorium.jpg"
-import Cafetaria from "../../utils/images/cafeteria.jpg"
-import multipurposehall from "../../utils/images/multipurposehall.jpg"
-import openairtheater from "../../utils/images/openairtheater.jpg"
-import Gurudhwar from "../../utils/images/gurudwar.jpg"
-import SmartClass from "../../utils/images/smartclasses.jpg"
-import Healthcare from '../../utils/images/health.jpg'
 import Scholarships from '../../utils/images/scholsrships.jpg'
-import Parentteacher from  '../../utils/images/parentteacher.jpg'
-import Youthclub from '../../utils/images/youthvlub.jpg'
-import Studentcouncil from '../../utils/images/studentcouncil.jpg'
-import Careercoaching from '../../utils/images/Careercoaching.jpg'
 import Ragging from '../../utils/images/ragging.png'
 import VoteImage from '../../utils/images/voteimage.jpg'
-import Vote from "../../utils/images/vote.jpg"
 import { Link } from 'react-router-dom';
 function ChooseSection() {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-
-      };
+   
   return (
     <div>
         <div className="container">

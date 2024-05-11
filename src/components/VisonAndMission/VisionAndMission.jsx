@@ -1,7 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import AboutUsSectionImg from '../../utils/images/about-us-section-img.jpg';
-import ChooseSection from '../../components/ChooseSection/ChooseSection'; 
+import React from 'react'; 
 import { Navbarhead } from '../../components/Navbar/Navbar';
 function VisionAndMission() {
     return (

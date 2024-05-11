@@ -6,13 +6,12 @@ import { Link} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import  Logo  from '../../utils/images/logo.png'
 import { NavDropdown, Row } from 'react-bootstrap';
-import { useState ,useEffect} from 'react';
+import { useState } from 'react';
 export const Navbarhead=()=>{
   const [showDropdown, setShowDropdown] = useState(false);
   const [showAdmission,setShowAdmission]=useState(false)
   const [showWhyKGCDropdown, setShowWhyKGCDropdown] = useState(false);
   const [showCourse,setShowCourse] =useState(false)
-   const [isMobile, setIsMobile] = useState(false);
   const admissionhandleMouseEnter = () => {
     setShowAdmission(true);
   };
@@ -41,17 +40,7 @@ export const Navbarhead=()=>{
   const handleWhyKGCDropdownLeave = () => {
     setShowWhyKGCDropdown(false);
   };
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+ 
     return <Container className=' w-100  mb-3'>
       <Row>
       <Link to="/" className='navbar-brand d-flex align-items-center justify-content-center w-100 p-3'>

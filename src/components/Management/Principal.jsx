@@ -1,38 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import AboutUsSectionImg from '../../utils/images/about-us-section-img.jpg';
-import ChooseSection from '../../components/ChooseSection/ChooseSection';
-import Person1 from '../../utils/images/g2.jpeg';
-import Person2 from '../../utils/images/g8.jpeg';
-import Person4 from '../../utils/images/g12.JPG';
-import Person5 from '../../utils/images/g13.JPG';
 import { Navbarhead } from '../../components/Navbar/Navbar';
-import Tressurer from '../../utils/images/tressurer.png'
 import PrincipalImage from '../../utils/images/g9.JPG'
-import Director from '../../utils/images/director.jpg'
-import VP from '../../utils/images/vicepresident.jpg'
-import President from  '../../utils/images/president.jpg';
 
-const persons = [
-    {
-        id: 1,
-        img: [Person1]
-    },
-    {
-        id: 2,
-        img: [Person2]
-    },
-
-    {
-        id: 4,
-        img: [Person4]
-    },
-    {
-        id: 5,
-        img: [Person5]
-    },
-
-];
 
 function Principal() {
   return (

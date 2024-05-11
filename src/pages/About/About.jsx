@@ -2,13 +2,11 @@ import React from 'react';
 import './About.css';
 import { Link } from 'react-router-dom';
 import AboutUsSectionImg from '../../utils/images/about-us-section-img.jpg';
-import ChooseSection from '../../components/ChooseSection/ChooseSection'; 
 import Person1 from '../../utils/images/g2.jpeg';
 import Person2 from '../../utils/images/g8.jpeg';
 import Person4 from '../../utils/images/g12.JPG';
 import Person5 from '../../utils/images/g13.JPG';
 import { Navbarhead } from '../../components/Navbar/Navbar';
-import { Row } from 'react-bootstrap';
 
 const persons = [
     {
