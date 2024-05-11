@@ -36,6 +36,10 @@ function Contact() {
         if (!formData.phone_number) {
           errors.phone_number = 'Phone number is required';
         }
+        
+        else if (!/^\d{10}$/.test(formData.phone_number)) { // Check if phone number format is valid
+          errors.phone_number = 'Please enter a valid 10-digit phone number';
+      }
     
         // Check if email is empty
         if (!formData.email) {
@@ -119,14 +123,15 @@ function Contact() {
         <ToastContainer />
        
         <Navbarhead/>
-        <header className='h-35 p-3   d-flex align-items-center text-light'>
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h3 className='text-center fw-semibold'>Register with us</h3>
-                {/* <p className='text-center w-75 mb-5'>
-Our college provides a direct line of communication for inquiries and assistance, ensuring swift and personalized responses to queries from students, parents, and stakeholders. With dedicated forms and contact details readily available, individuals can effortlessly reach out to address their concerns and engage with the college community.</p>
-           */}
-            </div>
-        </header>
+        <div className='container'>
+    <div className="row" style={{paddingBottom:"2px"}}>
+			<div className="col-md-12 text-center" style={{paddingBottom:"2px"}}>
+				<div className="about_title" style={{paddingBottom:"2px"}}>
+					<h2 style={{}}>Reigistration</h2>
+				</div>
+			</div>
+		</div>
+    </div>
 
         <div className='container my-5 d-flex justify-content-center'>
             <Form ref={form} id='contact-form' onSubmit={handleSubmit}>

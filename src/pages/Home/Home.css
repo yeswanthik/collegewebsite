@@ -1,4 +1,4 @@
-.home-page header {
+/* .home-page header {
     background-image: linear-gradient(rgba(5, 5, 10, 0.75), rgba(5, 5,10, 0.75)), url(../../utils/images/gallery12.jpeg);
 }
 
@@ -11,4 +11,24 @@ header {
     background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-section-img.jpg);
     background-size: cover;
     background-position: center;
-}
+} */
+/* MyCarousel.css */
+
+/* Style the carousel container */
+.my-carousel {
+    width: 80vw; /* Set the width to 90% of the viewport width */
+    margin: auto; /* Center the carousel horizontally */
+  }
+  
+  /* Style the carousel slides to be 30% of the viewport height */
+  .my-carousel .carousel .slide {
+    height: 60vh;
+  }
+  
+  /* Center the images within the slides */
+  .my-carousel .carousel .slide img {
+    max-width: 100%; /* Ensure the image fits within the slide */
+    max-height: 100%; /* Ensure the image fits within the slide */
+    margin: auto; /* Center the image horizontally */
+  }
+  

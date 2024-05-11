@@ -36,27 +36,35 @@ function Courses() {
   return (
     <div className='courses-page'>
         <Navbarhead/>
-        <header className='h-35 p-3 d-flex align-items-center text-light'>
-        
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h3 className='text-center fw-semibold'>Our Courses</h3>
-                <p className='text-center w-75 mb-5'>Courses we offer and its listed subjects </p>
-    
-     </div>
-        </header>
+        <div className='container'>
+    <div className="row" style={{paddingBottom:"2px"}}>
+			<div className="col-md-12 text-center" style={{paddingBottom:"2px"}}>
+				<div className="about_title" style={{paddingBottom:"2px"}}>
+					<h2 style={{}}>Courses</h2>
+				</div>
+			</div>
+		</div>
+        <div className="row">
+                <div className='d-flex flex-column justify-content-center mb-4 mb-lg-0'>
+            <div className='w-100 container h-100 d-flex flex-column  text-dark mt-2'>
+                <p className='mb-2'>KGC offers Bachelor of Arts (BA) and Bachelor of Science (BSc) degrees, providing diverse academic pathways and opportunities for students to pursue their interests and career goals.
+</p>  </div>
+        </div>
+        </div>
+        </div>
 
         <div className='container py-5'>
             <div className='row g-4'>
                 {courses.map((course) => (
-                    <div key={course.id} className='col-lg-6'>
-                        <Card className='text-white shadow scale-hover-effect'>
-                            <Card.Img src={course.img} />
-                            <Card.ImgOverlay className='d-flex flex-column align-items-center justify-content-center p-md-5'>
-                                <Card.Title className='fs-1 text-danger'>{course.title}</Card.Title>
+                    <div key={course.id} className='col-md-6 col-lg-4'>
+                        <Card className='text-dark shadow scale-hover-effect'>
+                            <Card.Img src={course.img} height={250}  width={100}  />
+                            <Card.Body className='d-flex flex-column align-items-center justify-content-center p-md-5'>
+                                <Card.Title className='fs-3 text-danger'>{course.title}</Card.Title>
                                 <Card.Text className='text-center'>{course.description}</Card.Text>
-                                
+                                <ul></ul>
                                 <Card.Text className='text-center'>{course.subjects}</Card.Text>
-                            </Card.ImgOverlay>
+                            </Card.Body>
                         </Card>
                     </div>
                 ))}

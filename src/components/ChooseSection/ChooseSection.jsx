@@ -17,7 +17,10 @@ import Parentteacher from  '../../utils/images/parentteacher.jpg'
 import Youthclub from '../../utils/images/youthvlub.jpg'
 import Studentcouncil from '../../utils/images/studentcouncil.jpg'
 import Careercoaching from '../../utils/images/Careercoaching.jpg'
+import Ragging from '../../utils/images/ragging.png'
+import VoteImage from '../../utils/images/voteimage.jpg'
 import Vote from "../../utils/images/vote.jpg"
+import { Link } from 'react-router-dom';
 function ChooseSection() {
     var settings = {
         dots: true,
@@ -41,18 +44,18 @@ function ChooseSection() {
         <div className="container">
             <h2 className='text-center mb-5'>Why choose Khalsa Girls College ?</h2>
             <div className='row g-4'>
-            <div className="slider-container  px-5 ">
-            <Slider {...settings}>
+            <div className="d-flex  px-5 ">
+            {/* <Slider {...settings}> */}
             <div className='col-lg-4 p-1'>
                 
                 <Card className='d-flex align-items-center border-0 h-100'>
-                  <Card.Img variant="top" width={100} height={200} src={Vote} />
+                  <Card.Img variant="top" width={100} height={200} src={VoteImage} />
                  
                   <Card.Body>
                     <Card.Title className='text-center text-capitalize mb-3'>
                       Vote
                     </Card.Title>
-                    <Card.Text className='text-center'>
+                    <Card.Text >
 Voting is a fundamental democratic right that empowers individuals to have a voice in shaping the future of their communities and nations. Through the act of voting, citizens can actively participate in the decision-making process and contribute to the collective governance of society.</Card.Text>
                   </Card.Body>
                 </Card>
@@ -60,32 +63,30 @@ Voting is a fundamental democratic right that empowers individuals to have a voi
             <div className='col-lg-4 p-1'>
 
             <Card className='d-flex align-items-center border-0 h-100'>
-              <Card.Img variant="top" width={100} height={200} src={Library} />
+              <Card.Img variant="top" width={100} height={200} src={Ragging} />
              
               <Card.Body>
                 <Card.Title className='text-center text-capitalize mb-3'>
-                  Library
+                  Anti Ragging
                 </Card.Title>
-                <Card.Text className='text-center'>
-                College library: resource hub for academic materials.
-                A library in college is a resource center providing access to a diverse collection of books, academic journals, multimedia materials, and digital resources to support learning, research, and intellectual exploration by students, faculty, and staff.</Card.Text>
-              </Card.Body>
+                <Card.Text >The college strictly prohibits ragging, conducts annual anti-ragging campaigns, educates students during admissions, and has an effective committee and squad, resulting in a harmonious environment with no reported incidents.</Card.Text>
+                </Card.Body>
             </Card>
           </div>
           <div className='col-lg-4 p-1'>
             <Card className='d-flex align-items-center border-0 h-100'>
-              <Card.Img variant="top" width={100} height={200} src={Lab} />
+              <Card.Img variant="top" width={100} height={200} src={Scholarships} />
              
               <Card.Body>
                 <Card.Title className='text-center text-capitalize mb-3'>
-                  Lab
+                  Scholarships
                 </Card.Title>
-                <Card.Text className='text-center'>The college has well-equipped 6 labs for practical work and comprehensive. teaching.College computer labs have as many as 20 computers which have the facility of internet and licenced softwares and projectors to helps students to envisage things better. College Laboratories are equipped with latest apparatus for students.</Card.Text>
-              </Card.Body>
+                <Card.Text >Scholarships are offered to the students belonging to SC, ST and OBC categories. Merit cum means scholarships and Fee Concessions are given to students from economically weaker sections of the society'
+    </Card.Text>   </Card.Body>
             </Card>
           </div>
           
-          <div className='col-lg-4 p-1'>
+          {/* <div className='col-lg-4 p-1'>
             <Card className='d-flex align-items-center border-0 h-100'>
               <Card.Img variant="top" width={100} height={200} src={Auditorium} />
              
@@ -250,9 +251,11 @@ Class-wise PTA meetings are held to discuss the academic progress of students.
                 The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administered oath by the Principal of the college. </Card.Text>
               </Card.Body>
             </Card>
-          </div>
-      </Slider>
-    </div>
+          </div> */}
+      {/* </Slider> */}
+        </div>
+        <Link to="/whykgc" className='text-center'> <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button></Link>
+  
             
             {/* <Carousel controls="true">
                 

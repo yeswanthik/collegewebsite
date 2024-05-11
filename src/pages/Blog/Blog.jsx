@@ -7,89 +7,186 @@ import Blog6Img from '../../utils/images/blog6-img.jpg';
 import Blog7Img from '../../utils/images/blog7-img.jpg';
 import Blog8Img from '../../utils/images/blog8-img.jpg';
 import Blog9Img from '../../utils/images/blog9-img.jpg';
-import VP from '../../utils/images/vicepresident.jpg'
-import President from  '../../utils/images/president.jpg';
-import Principal from '../../utils/images/g9.JPG'
-import Director from '../../utils/images/director.jpg'
 import { Navbarhead } from '../../components/Navbar/Navbar';
-
+import Ragging from '../../utils/images/ragging.png'
+import Library from "../../utils/images/library.jpg"
+import Lab from "../../utils/images/lab.jpg"
+import Auditorium from "../../utils/images/auditorium.jpg"
+import Cafetaria from "../../utils/images/cafeteria.jpg"
+import multipurposehall from "../../utils/images/multipurposehall.jpg"
+import openairtheater from "../../utils/images/openairtheater.jpg"
+import Gurudhwar from "../../utils/images/gurudwar.jpg"
+import SmartClass from "../../utils/images/smartclasses.jpg"
+import Healthcare from '../../utils/images/health.jpg'
+import Scholarships from '../../utils/images/scholsrships.jpg'
+import Parentteacher from  '../../utils/images/parentteacher.jpg'
+import Youthclub from '../../utils/images/youthvlub.jpg'
+import Studentcouncil from '../../utils/images/studentcouncil.jpg'
+import Careercoaching from '../../utils/images/Careercoaching.jpg'
+import Vote from '../../utils/images/voteimage.jpg'
 const blogs = [
     {
         id: 1,
-        img: [President],
-        title: 'President',
-        description: 'Khalsa Girls College Sadulshahar, is a renowned institute of higher education. It claims pre-eminence throughout the world because it has its roots in the lofty ideals of the Great Gurus and presently moves towards the future with a visionary outlook. The college strives towards advocating a progressive attitude of mind, according due value to intelligence and logic. The college has made a mark as an institute of learning that has and would continuously strive towards excellence in academics giving due recognition to the development of mind and spirit. The pride of the college is its dedicated faculty and disciplined students. It can also boast of its high-tech laboratories,  well stocked and computerized library with bar code system. The campus is grand and its architecture par excellence. A sense of beauty and serenity surrounds the atmosphere which is contributes extensively towards healthy learning. Students are particularly keen to be a part of the college that promotes morality and sobriety of life. The thrust is on giving the students due recognition to originality, vision and promote creativity, so that they leave not just with a degree but with a sense of pride and achievement of academic and personal accomplishment.'
-    },{
+        img: [Vote],
+        title: 'Right to Vote',
+        description: 'Voting is a fundamental democratic right that empowers individuals to have a voice in shaping the future of their communities and nations. Through the act of voting, citizens can actively participate in the decision-making process and contribute to the collective governance of society.'
+    },
+    {
         id: 2,
-        img: [Principal],
-        title: 'Principal',
-        description: 'Educated man is an asset to the society. He can be a harbinger of social, economics and ethical change. The time after plus two is the most crucial phase in the life of a student. It can be a turning point in his career. Higher Education can transform his life. The diligent efforts put in by the student at this point of time will help him reap life long benefits. Khalsa Girls college with its year long history, has been one of the premier Higher Educational Institutions SGNR . The Status of Autonomous College is yet another milestone achievement in its illustrious and glorious history. It is a multi-faculty Graduate Girls College, that runs degree courses at Graduate.He mission and objective of its founding fathers has always been to inculcate high moral values along with academic excellence. To promote development of all round personality in a student, the college offers extra mural and co-curricular activities. The college has evolved a beings and benevolent system to look into the needs and problems of the students. It is expected of the students that they go through the ‘Prospectus’ thoroughly and become aware of the high ideals to make Khalsa Girls College, Sadulshahar a destination for Higher Education and Learning.Best wishes and blessings to the students for the upcoming session and their bright future. '
+        img: [Ragging],
+        title: 'Anti Ragging',
+        description: 'The college strictly prohibits ragging, conducts annual anti-ragging campaigns, educates students during admissions, and has an effective committee and squad, resulting in a harmonious environment with no reported incidents.'
     },
     {
         id: 3,
-        img: [Director],
-        title: 'Director',
-        description: 'Like the golden history of the institution, its present is also very glorious. The students of the institution have made the institution proud at the national and international level by achieving excellent achievements in all fields. The number of students selected in competitive examinations after studying in the institute is increasing every year, which is a matter of pride.Whenever I have presented proposals for the progress of the institution and the welfare of the students, the management committee has accepted and encouraged me. For which I am deeply grateful to him.Future plans:- Proposal to publish the annual magazine of the organization, upcoming In the session, there will be a proposal to start new faculties in the college, special classes will be organized to emphasize on spoken English as per the demand of time and for preparation for competitive examinations. Our special effort will be on obtaining maximum marks as well as special quality education, so that more and more students benefit the society by getting selected in various competitive examinations.These steps of progress of the organization are the result of the faith and blessings expressed in me by the entire staff and management committee. I hope that you will continue to give me your full support like this' 
+        img: [Scholarships],
+        title: 'Scholarships',
+        description: ' Scholarships are offered to the students belonging to SC, ST and OBC categories. Merit cum means scholarships and Fee Concessions are given to students from economically weaker sections of the society'
     },
     {
         id: 4,
-        img: [VP],
-        title: 'President',
-        description: 'Indian culture creates unity in diversity and the confluence of education and service is the ideal of Indian culture. We can see Indian culture only through the mirror of education. We can get rid of the poison of selfishness and ego only through education. Therefore, by drinking the nectar of knowledge and leading a life of devotion, make your life meaningful and provide progress to the society. Vidya feet start moving forward on their own to pick up the fallen, move the fallen and embrace the victim. According to Shri Guru Nanak Dev Ji, service is the greatest service. Hence, adopting his ideals, he has been serving the organization for the last four decades with a spirit of service. Morality, discipline, tolerance, secularism are the pillars of this institution. Due to which it is continuously moving on the path of progress. With best wishes from the entire school family'
-    }, {
-        id: 5,
-        img: [Blog5Img],
-        title: 'About KGC Library',
-        description: 'The college library serves as a vital hub for students, faculty, and researchers alike. It provides a treasure trove of academic resources, including books, journals, and digital materials, fostering a culture of learning and exploration. From quiet study corners to collaborative spaces, the library offers diverse environments tailored to various learning styles. With knowledgeable librarians to assist patrons in navigating resources and conducting research, the library serves as an indispensable ally in the pursuit of knowledge and academic excellence within the college community.',
+        img: [Careercoaching],
+        title: 'Career Coaching',
+        description: 'The KGC Career Coaching Cell (KGC CCC) was established with the objective of nurturing talent and aptitude to prepare the students for the various competitive exams like Civil Services, Banking services, etc'
     },
     {
+        id: 5,
+        img: [Youthclub],
+        title: 'Youth Club',
+        description: ' Youth club of the College is enabling the youth to utilize energies. The objective of the club is to provide a platform for the youth to collectively work towards themselves and society. For accomplishing this aim the club is organizing different activities from time to time.'
+    
+    },
+
+    {
         id: 6,
-        img: [Blog6Img],
-        title: 'About Lab',
-        description: 'College laboratories are essential hubs for hands-on learning and scientific exploration across various disciplines. In the botany lab, students delve into the fascinating world of plants, conducting experiments to understand their structure, growth, and ecological significance. In the science lab, the boundaries of knowledge are pushed as students engage in experiments spanning biology, chemistry, and physics, honing their analytical skills and scientific reasoning. Chemistry labs provide a platform for students to explore chemical reactions, synthesize compounds, and analyze their properties, fostering a deep understanding of the molecular world. Similarly, physics labs offer opportunities to investigate the fundamental principles of the universe through experiments in mechanics, optics, and electromagnetism. In the computer lab, the realm of technology comes alive as students explore programming, data analysis, and digital modeling, preparing them for the demands of the modern world. Together, these laboratories serve as crucibles of discovery, empowering students to apply theoretical knowledge to real-world phenomena and cultivate a lifelong passion for scientific inquiry.'
+        img: [Library],
+        title: 'Library',
+        description: 'College library: resource hub for academic materials. A library in college is a resource center providing access to a diverse collection of books, academic journals, multimedia materials, and digital resources to support learning, research, and intellectual exploration by students, faculty, and staff.'
+      
     },
     {
         id: 7,
-        img: [Blog7Img],
-        title: 'Infrastructure Facilities',
-        description: 'KGC has a well –planned infrastructure and proactively keeps on improvising it in line with its academic growth. It has a large academic block hosting big and spacious classrooms and laboratories. Library, Computer lab, Canteen and other facilities have been enhanced and upgraded in the past whenever new courses or additional units of existing courses were added. There is classroom and multipurpose utilization of halls  for conducting functions, exhibitions, seminars, conferences, workshops, mid-term and end semester exams, staff meetings, placement drives, alumni association meet etc. There is a huge library equipped with several text and references books for each of the departments. NCC and NSS camps are also held in the campus. The campus resources are also used for conducting banking recruitment examinations and the State Public Service Commission examinations. The play grounds, lawn tennis clay courts and basketball ground of the College are made available to sports coaching academies to promote the spirit of sports in young generation. The players use the ground for practice and to conduct matches and sports meets. The tennis courts have been leased to Ace Sports Academy for regular tennis and fitness coaching.'
+        img: [Lab],
+        title: 'Lab',
+        description: 'The college has well-equipped 6 labs for practical work and comprehensive. teaching.College computer labs have as many as 20 computers which have the facility of internet and licenced softwares and projectors to helps students to envisage things better. College Laboratories are equipped with latest apparatus for students.'
     },
     {
         id: 8,
-        img: [Blog8Img],
-        title: 'Scholarships',
-        description: 'Scholarships offered in college play a pivotal role in facilitating access to education and alleviating financial burdens for students. These merit-based or need-based awards recognize academic excellence, leadership potential, and extracurricular achievements, providing financial assistance to deserving individuals. By covering tuition fees, living expenses, or specific educational costs, scholarships enable students to pursue their academic aspirations without the burden of excessive debt. Additionally, scholarships often come with prestige and recognition, enhancing students resumes and opening doors to future opportunities such as internships, graduate studies, or employment. Beyond financial support, scholarships also serve as incentives for academic excellence and encourage students to strive for success in their studies and extracurricular pursuits. Overall, scholarships offered in college are invaluable resources that empower students to pursue their educational goals, fulfill their potential, and contribute meaningfully to society.'
+        img: [Auditorium],
+        title: 'Auditorium',
+        description: 'The college has a fully ventilated auditorium in the campus with a seating capacity of more than 100 students. The auditorium, built with latest state-of-architecture design is equipped with the most modern facilities and is the pride of the college. It is equipped with hi-tech audio-visual equipment and super specialty sound and light system.'
+    
     },
     {
         id: 9,
-        img: [Blog9Img],
-        title: 'Anti Ragging',
-        description: 'Ragging is strictly banned in the college as per UGC instructions. Awareness among students is generated through Anti ragging campaign being held every year at the start of the session. During the time of admission they are constantly instructed upon this issue and are also made to sign an undertaking to this effect. Punishable aspects of Ragging and possible punishments are clearly mentioned in the college prospectus. To curb the menace of ragging in the institution, Anti ragging Committee of 5 faculty members has been set up in the college. Telephone numbers of all the members of the Anti Ragging Committee are displayed prominently in the college and hostel for easy access. Anti – ragging squad of students also remained active secretly throughout the session. Anti Ragging Committee and squad has been so effective in its work that not even a single case has been reported in the college . Thus, the college ensures a cohesive and harmonious environment for its students.'
+        img: [Gurudhwar],
+        title: 'Gurudhwar Sahib',
+        description: ' Sarjit Gurdwara is proposed in the college campus where the staff and students of the college participate actively in the “Community Kitchen” .. They collect the funds and prepare ‘langar’ which is partaken by the neighborhood community enthusiastically.'
+     },
+    {
+        id: 10,
+        img: [openairtheater],
+        title: 'Open Air Theater',
+        description: 'The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hundred students.'
     },
-];
+    {
+        id: 11,
+        img: [SmartClass],
+        title: 'Smart Classes',
+        description: 'KGC takes profound initiatives to provide latest technology to students thus benefiting them in keeping up with the pace of modernizing IT world. Smart class rooms have been added to the infrastructure to make the teaching learning process more intriguing.Videos and documentary movies are also used by some of the departments as teaching tools.'
+    
+    },
+    {
+        id: 12,
+        img: [Cafetaria],
+        title: 'Cafetatia',
+        description: 'Khalsa Girls College canteen is a thriving hub of activity in the College throughout the year. The canteen, with a covered area of 600 sq.ft, has a seating capacity of 45 students and a separate section for faculty. A variety of Indian food and snack items are provided to the students and staff of the college with highest quality.'
+    
+    },
+    {
+        id: 13,
+        img: [Healthcare],
+        title: 'Health Care',
+        description: ' The college has a health centre with a provision of a lady doctor for medical care of the students. A medical check-up of the students is carried out regularly. The college has annual contract with the CITY HOSPITAL for all types of medical requirements.'
+    
+    },
+    {
+        id: 14,
+        img: [multipurposehall],
+        title: 'Multi Purpose Hall',
+        description: 'There is multipurpose utilization of hall, e.g. for conducting functions, exhibitions, seminars, conferences, workshops, mid-term and end-semester exams, staff meetings, placement drives, alumni association meet etc.'
+    },
+
+    
+   
+    {
+        id: 15,
+        img: [Parentteacher],
+        title: 'Parent Teacher Association',
+        description: 'The Parent Teacher Association is instrumental in providing a forum for open discussions on administrative and academic aspects of the college and their constructive incorporation in policy formulation.Class-wise PTA meetings are held to discuss the academic progress of students.'
+    },
+    {
+        id: 16,
+        img: [Studentcouncil],
+        title: 'Student Council',
+        description: 'The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administered oath by the Principal of the college.'
+    
+    },
+    ];
 
 function Blog() {
   return (
     <div className='blog-page'>
     <Navbarhead/>
-    <header className='h-35 p-3   d-flex align-items-center text-light'>
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h3 className='text-center fw-semibold'>Blogs</h3>
-                <p className='text-center w-75 mb-5'>College blogs serve as informative platforms where students, faculty, and staff can share insights, experiences, and valuable information about campus life, academic programs, extracurricular activities, and more.</p>
-            </div>
-        </header>
-
+    <div className='container'>
+    <div className="row">
+			<div className="col-md-12 text-center" style={{paddingBottom:"2px"}}>
+				<div className="about_title" >
+					<h2>Why KGC</h2>
+				</div>
+			</div>
+		</div>
+            <div className="row">
+                <div className='d-flex flex-column justify-content-center mb-4 mb-lg-0'>
+            <div className='w-100 container h-100 d-flex flex-column  text-dark '>
+                <p className='mb-2'>Khalsa Girls College  has a reckoning reputation of being one of the most renowned premier postgraduate institutions, engaged at all times in the holistic development of women. The major strengths of the college are:
+Commitment towards enhancing Academic Excellence resulting in laudable achievements in academics and para- academics.
+Hub of Sports Excellence with an outshining track record.
+	Centre for Development of Pedagogical Excellence with admirable achievements.
+	Multi-faculty college offering an array of UG and PG courses along with Value added and Vocational Courses
+	Excellent Infrastructural and Learning Resources. State of art auditorium and open air theatre provide a stage for various co curricular activities.
+	Vast green campus provides ambience for holistic growth.
+	Serene environs of the hostels provide a home away from home.
+	Excellent Student Support services.
+	Empowering and encouraging the meritorious and needy students through financial aid and scholarships.
+	Enlightened and Visionary Managing Committee.
+	Highly dedicated faculty with dynamic leadership.
+	Culturally Diverse Student base.
+	All inclusive admission policy.
+	Student centric teaching learning process.
+	Robust Culture of education that fosters critical thinking and creativity.
+	Comprehensive education beyond curriculum.
+	Commitment towards intellectual growth and spiritual development through value education.
+	Quality assurance through IQAC.
+	MoUs with Industry and Academic Institutions.
+	Commitment towards Institutional Social responsibility.
+	Total commitment towards Women empowerment.
+</p>  </div>
+        </div>
+        </div>
+        </div>
+        
         <div className='bg-body-tertiary py-5'>
             <div className="container">
                 <div className="row g-4">
                     {blogs.map((blog) => (
                         <div key={blog.id} className='col-md-6 col-lg-4'>
                             <Link to="/blog" className='text-decoration-none'>
-                                <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'>
+                                <Card border='warning' className='h-100 shadow scale-hover-effect bg-light text-dark border-0'>
                                     <Card.Img variant="top" width={100} height={250} src={blog.img} />
-                                    <Card.Body className='p-md-5 d-flex flex-column align-items-center'>
+                                    <Card.Body className='p-md-5 d-flex flex-column align-items-center ' >
                                         <Card.Title className='fs-2 mb-4'>{blog.title}</Card.Title>
-                                        <Card.Text className='text-center'>{blog.description}</Card.Text>
+                                        <Card.Text className=''>{blog.description}</Card.Text>
                                     </Card.Body>
                                 </Card>
                             </Link>

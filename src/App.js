@@ -6,6 +6,12 @@ import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 import Gallery from './pages/Gallery/Gallery';
+import Management from './components/Management/Management';
+import VisionAndMission from './components/VisonAndMission/VisionAndMission';
+import Admission from './components/Admission/Admission';
+import Careers from './pages/Careers/Careers';
+import Director from './components/Management/Director';
+import Principal from './components/Management/Principal';
 
 function App() {
   return (
@@ -16,9 +22,16 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/courses' element={<Courses />} />
         <Route path='/about' element={<About />} />
-        <Route path='/blog' element={<Blog />} />
+        <Route path='/whykgc' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/gallery' element={<Gallery/>} />
+        <Route path='/management' element={<Management/>}/>
+        <Route path='/director' element={<Director/>}/>
+        
+        <Route path='/principal' element={<Principal/>}/>
+        <Route path='/admission' element={<Admission/>}/>
+        <Route path='/visionandmission' element={<VisionAndMission/>}/>
+        <Route path='/careers'element={<Careers/>}/>
       </Routes>
 
       <footer>
@@ -43,13 +56,7 @@ function App() {
                     </svg>
                   </li>
                 </Link>
-                <Link to="/contact">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#dc3545" class="bi bi-tiktok" viewBox="0 0 16 16">
-                      <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
-                    </svg>
-                  </li>
-                </Link>
+              
                 <Link to="/contact">
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#dc3545" class="bi bi-youtube" viewBox="0 0 16 16">
@@ -73,10 +80,10 @@ function App() {
                       <li className='text-uppercase fw-semibold'>About us</li>
                     </Link>
                     <Link to="/blog" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Blog</li>
+                      <li className='text-uppercase fw-semibold'>Management</li>
                     </Link>
                     <Link to="/contact" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Register</li>
+                      <li className='text-uppercase fw-semibold'>apply</li>
                     </Link>
                   </ul>
                 </div>

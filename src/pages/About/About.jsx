@@ -8,6 +8,7 @@ import Person2 from '../../utils/images/g8.jpeg';
 import Person4 from '../../utils/images/g12.JPG';
 import Person5 from '../../utils/images/g13.JPG';
 import { Navbarhead } from '../../components/Navbar/Navbar';
+import { Row } from 'react-bootstrap';
 
 const persons = [
     {
@@ -34,11 +35,30 @@ function About() {
   return (
     <div className='about-page'>
     <Navbarhead/>
-    <header className='h-75 p-3  d-flex align-items-center text-light'>
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light mt-5'>
-                <h3 className='text-center fw-semibold'>About Us</h3>
-                <p className='text-center w-75 mb-5'>Khalsa Girls College Sadulshahar, nestled in Ward No.4 near the Municipality Office, embodies the serene beauty of nature and the revered ideals of ancient Gurukuls. Established in 1972-73 by the visionary Mr. Mohar Singh Sidhu as a primary school, it has since evolved into a Higher Primary School (1978-79), Secondary School (1989-90), and Higher Secondary School (2001), dedicated to serving society. </p> </div>
-        </header>
+    <div className='container'>
+    <div className="row" style={{paddingBottom:"2px"}}>
+			<div className="col-md-12 text-center" style={{paddingBottom:"2px"}}>
+				<div className="about_title" style={{paddingBottom:"2px"}}>
+					<h2 style={{}}>About KGC</h2>
+				</div>
+			</div>
+		</div>
+            <div className="row">
+                <div className='d-flex flex-column justify-content-center mb-4 mb-lg-0'>
+   
+            <div className='ml-3 p-3 vw-100 container h-100 d-flex flex-column  justify-content-center text-dark'>
+                <p className='mb-3'>Khalsa Girls College Sadulshahar is located in the heart of the city, Ward No.19,near BSNL Telephone Exchange Office. In the picturesque and peaceful environment of nature, this institution is associated with the ideals of ancient Gurukul. its beauty attracts everyone.
+In the session 1972-73, Mr. Mohar Singh Sidhu, a visionary, established this institution as a primary school. Further improving this form, it has been dedicated to the service of the society in the form of Higher Primary School since 1978-79, Secondary School since 1989-90 and Higher Secondary School since 2001. This institution holds a proud place in the field of education and sports.
+Adopting the ideas and ideals given by Shri Guru Nanak Dev Ji, in the past years, the talented students of the institution have set glorious records in the board examinations.
+Cultural programs are organized from time to time to develop qualities like secularism, discipline and tolerance in the institution. In fact, the credit for all-round development goes to the administrative committee, qualified, experienced, and hardworking teachers. It is due to their loyalty, dedication and hard work, the students are able to achieve all-round development.
+There is a system of co-education in the school and only girls' education in the college and special emphasis is given on secularism and discipline.
+The inauguration of the college is another big step on the path of progress by the institution. In which full cooperation of the people of the area is expected in the same way as the school is getting this cooperation.
+Khalsa Shikshan Samiti and the college family are grateful for the cooperation received from the residents of the area in the past and assure them that with their support the college will fulfil their aspirations and in the coming time, will set new records in the field of education by starting new departments.
+</p></div>
+
+</div>
+</div>
+</div>
 
         <div className='container my-5'>
             <div className="row">
@@ -58,9 +78,7 @@ In the institution, efforts are made for the all-round development of the person
             </div>
         </div>
 
-        <div className='bg-dark text-light py-5'>
-            <ChooseSection />
-        </div>
+       
 
         <div className='bg-body-tertiary py-5'>
             <div className="container">
