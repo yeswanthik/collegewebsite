@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Courses.css';
 import { Card } from 'react-bootstrap';
 import ArtCourseImg from '../../utils/images/art-course.jpg';
@@ -9,30 +9,36 @@ import { Navbarhead } from '../../components/Navbar/Navbar';
 
 const courses = [
     {
-        id: 1,
-        img: [ArtCourseImg],
-        title: 'Art Course',
-        description: 'Three Year Degree Course in Arts (B.A.) ',
-        subjects:'Optional Sub. Mark any three of the following. 1. English Literature 2. Punjabi Literature 3. Hindi literature 4. Political Science 5. Geography 6. Economics 7. Public Administration 8. Home Science 9. Computer 10. Mathematics 11. Sociology 12. History'
-     },
-    {
         id: 2,
         img: [BusinessCourseImg],
         title: 'Science Course',
         description: 'Three Year Degree Course in Science (B.Sc.) ',
-        subjects:'Optional Sub. Compulsory Subject 1. Chemistry 2. Physics 3. Biology Zoology 4. Botany 5. Mathematics 6. Computer',
+        subjects:[ "Compulsory Subject", "1. Chemistry" ,'2. Physics ',"3. Biology Zoology", "4. Botany," ,"5. Mathematics" ,"6. Computer"],
     },
     {
         id: 3,
         img: [ComputerScienceCourseImg],
         title: 'Computer Science Course',
         description: 'Compulsory Subject (Only for first year girl students)',
-        subjects:'1. Elementary Computer (Elem. Computer) 2. Environmental Std. 3. General Hindi/English'
+        subjects:['1. Elementary Computer (Elem. Computer)','2. Environmental Std.' , '3. General Hindi/English']
         },
+    {
+        id: 1,
+        img: [ArtCourseImg],
+        title: 'Art Course',
+        description: 'Three Year Degree Course in Arts (B.A.) ',
+        subjects:["Optional Sub. Mark any three of the following.", "1. English Literature"," 2. Punjabi Literature"," 3. Hindi literature", "4. Political Science" ,"5. Geography", "6. Economics" ,"7. Public Administration", "8. Home Science", "9. Computer", "10. Mathematics", "11. Sociology", "12. History"]
+     },
+   
     
 ];
 
 function Courses() {
+    const [expandedCourseId, setExpandedCourseId] = useState(null);
+
+    const handleReadMoreClick = (courseId) => {
+        setExpandedCourseId(expandedCourseId === courseId ? null : courseId);
+    };
   return (
     <div className='courses-page'>
         <Navbarhead/>
@@ -57,13 +63,21 @@ function Courses() {
             <div className='row g-4'>
                 {courses.map((course) => (
                     <div key={course.id} className='col-md-6 col-lg-4'>
-                        <Card className='text-dark shadow scale-hover-effect'>
+                        <Card onClick={() => handleReadMoreClick(course.id)} className='text-dark shadow scale-hover-effect'>
                             <Card.Img src={course.img} height={250}  width={100}  />
                             <Card.Body className='d-flex flex-column align-items-center justify-content-center p-md-5'>
                                 <Card.Title className='fs-3 text-danger'>{course.title}</Card.Title>
                                 <Card.Text className='text-center'>{course.description}</Card.Text>
-                                <ul></ul>
-                                <Card.Text className='text-center'>{course.subjects}</Card.Text>
+                               
+                                {expandedCourseId === course.id && (
+                                        <div>
+                                            {course.subjects.map((subject, index) => (
+                                                <Card.Text key={index} >{subject}</Card.Text>
+                                            ))}
+                                        </div>
+                                    )}
+                                    <Card.Text onClick={() => handleReadMoreClick(course.id)} style={{color:"red", cursor:"pointer", fontWeight:"900"}}> {expandedCourseId === course.id ? 'Read Less' : 'Read More'}</Card.Text>
+                               
                             </Card.Body>
                         </Card>
                     </div>

@@ -98,14 +98,14 @@ export const Navbarhead=()=>{
               <NavDropdown.Item href='/about'>Our Winners</NavDropdown.Item>
           <NavDropdown.Item href='/contact' >Contact Us</NavDropdown.Item>
             </NavDropdown>
-          <Nav.Link href='/management' className='text-uppercase text-light '>Management</Nav.Link>
+          <Nav.Link href='/management' className=' text-light '>Management</Nav.Link>
           <NavDropdown title={<span className={`text-${showWhyKGCDropdown ? 'dark' : 'light'}`}>Why KGC</span>} id="about-us-dropdown" 
           show={showWhyKGCDropdown}
           onMouseEnter={handleWhyKGCDropdownEnter} 
           onMouseLeave={handleWhyKGCDropdownLeave}
           style={{ backgroundColor: showWhyKGCDropdown ? 'white' : '' }}
         >
-          <NavDropdown.Item href='/whykgc'>Anti Ragging</NavDropdown.Item>
+          {/* <NavDropdown.Item href='/whykgc'>Anti Ragging</NavDropdown.Item>
           <NavDropdown.Item href='/whykgc'>Scholarships</NavDropdown.Item>
           <NavDropdown.Item href='/whykgc'>Career Coaching</NavDropdown.Item>
           <NavDropdown.Item href='/whykgc'>Youth Club</NavDropdown.Item>
@@ -119,7 +119,25 @@ export const Navbarhead=()=>{
           <NavDropdown.Item href='/whykgc'>Health Care</NavDropdown.Item>
           <NavDropdown.Item href='/whykgc'>Parent Teacher Association</NavDropdown.Item>
           <NavDropdown.Item href='/whykgc'>Student Council</NavDropdown.Item>
-          <NavDropdown.Item href='/whykgc'>Multi Purpose Hall</NavDropdown.Item>
+          <NavDropdown.Item href='/whykgc'>Multi Purpose Hall</NavDropdown.Item> */}
+           <NavDropdown.Item href='/whykgc#blog-1'>Right to Vote</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-2'>Anti Ragging</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-3'>Scholarships</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-4'>Career Coaching</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-5'>Youth Club</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-6'>Library</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-7'>Lab</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-8'>Auditorium</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-9'>Gurudwara Sahib</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-10'>Open Air Theater</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-11'>Smart Classes</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-12'>Cafeteria</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-13'>Health Care</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-14'>Multi Purpose Hall</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-15'>Parent Teacher Association</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-16'>Student Council</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-17'>Campus Security Camera Systems</NavDropdown.Item>
+      <NavDropdown.Item href='/whykgc#blog-18'>Save Water</NavDropdown.Item>
 
 
           </NavDropdown>

@@ -127,7 +127,7 @@ function Contact() {
     <div className="row" style={{paddingBottom:"2px"}}>
 			<div className="col-md-12 text-center" style={{paddingBottom:"2px"}}>
 				<div className="about_title" style={{paddingBottom:"2px"}}>
-					<h2 style={{}}>Reigistration</h2>
+					<h2 style={{}}>Contact Us</h2>
 				</div>
 			</div>
 		</div>

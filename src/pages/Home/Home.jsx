@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import './Home.css';
 import { Link,  useNavigate } from 'react-router-dom';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
@@ -22,6 +22,8 @@ import Gallery9 from '../../utils/images/gallery9.jpeg'
 import Gallery10 from '../../utils/images/gallery10.jpeg'
 import Gallery11 from '../../utils/images/gallery11.jpeg'
 import Gallery12 from '../../utils/images/gallery12.jpeg'
+import Popup from '../../utils/images/Popup.jpg'
+import { Modal } from 'react-bootstrap';
 
 const blogs = [
     
@@ -48,10 +50,19 @@ const blogs = [
 ];
 
 function Home() {
+  const [show, setShow] = useState(true);
+
+  const handleClose = () => setShow(false);
     const navigate=useNavigate()
   return (
     <>
      <Navbarhead/>
+     <Modal show={show} onHide={handleClose} centered>
+       
+        <Modal.Body>
+          <img src={Popup} alt="Popup" className="img-fluid" />
+        </Modal.Body>
+      </Modal>
      <div className="row" style={{paddingBottom:"2px"}}>
 			<div class="col-md-12 text-center" style={{paddingBottom:"2px"}}>
 				<div class="about_title" style={{paddingBottom:"2px"}}>
@@ -107,19 +118,7 @@ function Home() {
         <img src={Gallery1} alt="Slide 3" />
       </div>
     </Carousel>
-     {/* <Container className='me-auto w-100'>
-     <Carousel autoPlay={true} showArrows={true} width="100%" >
-                <div className='h-35'>
-                    <img src={Gallery1}  />
-                </div>
-                <div>
-                    <img src={Gallery2}  />
-                </div>
-                <div>
-                    <img src={Gallery3} />
-                </div>
-            </Carousel>
-     </Container> */}
+   
     
      <div>
        

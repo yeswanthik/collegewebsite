@@ -32,7 +32,7 @@ function Chairman() {
                   <p className='mb-3'>
                   In the institution, efforts are made for the all-round development of the personality of the students and all efforts are made in such a direction that the students can find the path to their progress by adopting social diversities in practical life. I am sure that you will have all the necessary facilities available in the institution and you will get a suitable environment for study and contemplation. With best wishes for your bright future...
                    </p><p style={{fontWeight:"bold"}}>
-                   Sukhvinder Singh Lalgharia, Chairman </p></div>
+                   Sukhvinder Kaur Sidhu, Chairman </p></div>
 
 </div>
 </div>

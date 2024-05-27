@@ -4,7 +4,7 @@ import { Navbarhead } from "../Navbar/Navbar"
 function Admission(){
 
     const handleDownload=()=>{
-        const pdfPath = "pdf/application.pdf";
+        const pdfPath = "pdf/admission-form.pdf";
         
         // Create an anchor element
         const link = document.createElement('a');
