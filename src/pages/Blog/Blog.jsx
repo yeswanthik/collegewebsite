@@ -245,7 +245,7 @@ Hub of Sports Excellence with an outshining track record.
                                     <Card.Img variant="top" width={100} height={250} src={blog.img} />
                                     <Card.Body className='p-md-5 d-flex flex-column align-items-center ' >
                                         <Card.Title className='fs-2 mb-4'>{blog.title}</Card.Title>
-                                        <Card.Text className=''>{blog.description}{blog.title==="Scholarships"&&<span onClick={()=>{
+                                        <Card.Text className=''>{blog.description}{blog.title==="Anti Ragging"&&<span onClick={()=>{
                                         navigate("/contact")
                                         }} style={{color:"blue",cursor:"pointer", fontWeight:"bolder"}}>{"  "}Report</span>}</Card.Text>
                                         <Card.Text style={{color:"red", cursor:"pointer", fontWeight:"900"}}>Read More</Card.Text>

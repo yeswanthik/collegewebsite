@@ -2,12 +2,12 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Scholarships from '../../utils/images/scholsrships.jpg'
+import Scholarships from '../../utils/images/scholarships.png'
 import Ragging from '../../utils/images/ragging.png'
 import VoteImage from '../../utils/images/voteimage.jpg'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 function ChooseSection() {
-   
+   const navigate=useNavigate()
   return (
   
         <div className="container">
@@ -36,7 +36,10 @@ Voting is a fundamental democratic right that empowers individuals to have a voi
                 <Card.Title className='text-center text-capitalize mb-3'>
                   Anti Ragging
                 </Card.Title>
-                <Card.Text >The college strictly prohibits ragging, conducts annual anti-ragging campaigns, educates students during admissions, and has an effective committee and squad, resulting in a harmonious environment with no reported incidents.</Card.Text>
+                <Card.Text >The college strictly prohibits ragging, conducts annual anti-ragging campaigns, educates students during admissions, and has an effective committee and squad, resulting in a harmonious environment with no reported incidents.<span onClick={()=>{
+                                        navigate("/contact")
+                                        }} style={{color:"blue",cursor:"pointer", fontWeight:"bolder"}}>{"  "}Report</span></Card.Text>
+              
                 </Card.Body>
             </Card>
           </div>
