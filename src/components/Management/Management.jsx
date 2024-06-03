@@ -22,7 +22,7 @@ function Management() {
         <div className="row mb-5">
     
 <div className='col-lg-4 d-flex mt-5 justify-content-center order-1 order-lg-1'>
-                    <img src={President} style={{width:"350px", height:"350px"}}  alt="" />
+                    <img src={President} style={{width:"300px", height:"300px"}}  alt="" />
                 </div>
                 <div className='col-lg-8 d-flex flex-column  mb-4 mb-lg-0 order-2 order-lg-2'>
    
@@ -55,13 +55,13 @@ Secretary </p></div>
 
 </div>
 <div className='col-lg-4 d-flex justify-content-center mt-5 order-1 order-lg-2'>
-                    <img src={Secretary} style={{width:"350px", height:"350px"}}  alt="" />
+                    <img src={Secretary} style={{width:"300px", height:"300px"}}  alt="" />
                 </div>
 </div>
 <div className="row mb-5">
     
 <div className='col-lg-4 d-flex mt-5 justify-content-center order-1 order-lg-1 '>
-                    <img src={Chairman} style={{width:"350px", height:"350px"}} alt="" />
+                    <img src={Chairman} style={{width:"300px", height:"300px"}} alt="" />
                 </div>
                 <div className='col-lg-8 d-flex flex-column   mb-lg-0 order-2 order-lg-2'>
    
@@ -91,7 +91,7 @@ Chairman/Manager </p></div>
                 <div className='ml-3   container h-100 d-flex flex-column mt-5   text-dark'>
                     <h3 className=' fw-semibold'>Dear Students,</h3>
                     <p className='mb-3'>Education is a life-long learning process. Learning happens all the time; not only in a pre-designated place called the school. It happens in the home, between home and school too. The home’s and school’s mission therefore is to provide a learning environment and opportunities to the children as the learners.   Shaping young, impressionable minds is one of life’s biggest challenges. At KHALSA GIRLS COLLEGE,SADUL SHAHAR , we aim to empower our students to grow as individuals with strong open discerning minds with an international perspective, preparing them to make a mark in the global village - the world has come to be today.</p>
-                <p className='mb-3'>Our distinctive academic programmmes and innovative teaching methodologies encourage students to develop critical-thinking and learn through enquiry and reason, to exchange thoughts and ideas, to develop key personal and social values, to take ownership for her choices and to set goals to realize their own unique potential.   Authentic education implies an on-going, continuous interplay between the five moments of context, experience, reflection, action and evaluation between parents, students and lecturers.This is not to lead to mere information but to appropriation, integration into the very activity of Almighty within the created reality of our world but especially within each person. This then leads from information to transformation. <Link to={"/principal"}>Read Mpre</Link></p>
+                <p className='mb-3'>Our distinctive academic programmmes and innovative teaching methodologies encourage students to develop critical-thinking and learn through enquiry and reason, to exchange thoughts and ideas, to develop key personal and social values, to take ownership for her choices and to set goals to realize their own unique potential.   Authentic education implies an on-going, continuous interplay between the five moments of context, experience, reflection, action and evaluation between parents, students and lecturers.This is not to lead to mere information but to appropriation, integration into the very activity of Almighty within the created reality of our world but especially within each person. This then leads from information to transformation. <Link to={"/principal"}>Read More</Link></p>
                 
                     
                     <p style={{fontWeight:"bold"}}>Dr. Jyothi Chhabra 

@@ -140,9 +140,9 @@ In the session 1972-73, Mr. Mohar Singh Sidhu, a visionary, established this ins
                 </div>
             </div>
         </div>
-        <div className="row" style={{backgroundColor:"#FCE1DB" }}>
+        <div className="row" style={{backgroundColor:"#FFDEAD" }}>
                 <div className='d-flex flex-column justify-content-center mb-4 mb-lg-0'>
-                <h2 className='text-center mb-3  mt-3'> Management</h2>
+                <h2 className='text-center mb-3  mt-3'> Message from the Management</h2>
             <div className='ml-3 p-3 vw-100 container h-100 d-flex flex-column  justify-content-center text-dark'>
                 <p className='mb-3'>
 Khalsa Girls College prides itself on having an exceptional management team and dedicated staff members who are committed to providing the highest quality education and support to students. With strong leadership and a focus on continuous improvement, the college management ensures that every aspect of the institution operates smoothly and efficiently. The staff, comprising experienced educators and professionals, are passionate about their work and go above and beyond to create a nurturing learning environment. Their dedication, combined with innovative teaching methods and personalized attention, ensures that students receive the best possible education and preparation for their future endeavors. Together, the management and staff form a cohesive team dedicated to the success and well-being of every student at Khalsa Girls College
@@ -170,7 +170,7 @@ Khalsa Girls College prides itself on having an exceptional management team and 
 <div className=" row py-5" >
             <ChooseSection />
         </div>
-        <div className="row" style={{backgroundColor:"#FCE1DB" }}>
+        <div className="row" style={{backgroundColor:"#FFDEAD" }}>
                 <div className='d-flex flex-column justify-content-center mb-4 mb-lg-0'>
                 <h2 className='text-center mb-3  mt-3'> Vision And Mission</h2>
             <div className='ml-3 p-3 vw-100 container h-100 d-flex flex-column  justify-content-center text-dark'>
@@ -194,7 +194,7 @@ Khalsa Girls College prides itself on having an exceptional management team and 
                         <img src={StartCoursesImg} className='img-fluid' alt="" />
                     </div>
                 </div>
-                <div className='row g-4 mt-3'style={{backgroundColor:"#FCE1DB" }}>
+                <div className='row g-4 mt-3'style={{backgroundColor:"#FFDEAD" }}>
                 <h2 className='text-center text-capitalize mb-3'>Admission</h2>
                 <div className='ml-3 p-3 vw-100 container h-100 d-flex flex-column  justify-content-center text-dark'>
                 <p className='mb-3'>

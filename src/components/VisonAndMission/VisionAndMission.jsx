@@ -17,16 +17,16 @@ function VisionAndMission() {
 			<p style={{textAlign: "justify"}}>
 	<strong style={{fontSize: "22px"}}>Our Vision:</strong></p>
 <p style={{textAlign: "justify"}}>
-	“To be an institution of repute, with a humane face, that is dedicated to academic excellence and social transformation by improving the quality of life of its students.”&nbsp;</p>
+	To be an institution of repute, with a humane face, that is dedicated to academic excellence and social transformation by improving the quality of life of its students.&nbsp;</p>
 <p style={{textAlign: "justify"}}>
 	Imparting education to evolving scholars and empowering them through capacity-building, the College fashions their young minds by enabling them to think, imagine, analyse, assess, and express themselves through activity-based learning. The vision remains to turn Sri Guru Nanak Dev Khalsa College into a viable intersection of academic excellence and moral values. It is only in this manner that the college can meaningfully contribute to community development by providing fair access to the poor and socially disadvantaged groups in the light of changing economic, social, and cultural developments. The college remains dedicated to providing all assistance-technical, infrastructural, informational, or motivational-to students and help them excel in life.</p>
 <p style={{textAlign: "justify"}}>
 	<strong style={{fontSize: "22px"}}>Our Mission:</strong></p>
-<div style={{textAlign: "justify"}}>
+<p style={{textAlign: "justify"}}>
 	Our mission is to realize the vision by developing life-long learners- equipped with specialised knowledge, enhanced skill sets and humane values-who are not only employable and entrepreneurial but are also able to contribute meaningfully to social development. We endeavour to make our students see themselves as agents of change in the globalised world, confident of taking up professional and societal challenges with passion and maturity.<br></br>
-	</div>
-<div>
-	The College has the following mission:</div>
+	</p>
+<p>
+	The College has the following mission:</p>
 <ul>
 	<li>
 		 To develop skilled human resource by instilling scientific outlook.</li>

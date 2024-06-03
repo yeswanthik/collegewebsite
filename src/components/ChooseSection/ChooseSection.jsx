@@ -38,7 +38,7 @@ Voting is a fundamental democratic right that empowers individuals to have a voi
                 </Card.Title>
                 <Card.Text >The college strictly prohibits ragging, conducts annual anti-ragging campaigns, educates students during admissions, and has an effective committee and squad, resulting in a harmonious environment with no reported incidents.<span onClick={()=>{
                                         navigate("/contact")
-                                        }} style={{color:"blue",cursor:"pointer", fontWeight:"bolder"}}>{"  "}Report</span></Card.Text>
+                                        }} style={{color:"red",cursor:"pointer", fontWeight:"bolder"}}>{"  "}Report here</span></Card.Text>
               
                 </Card.Body>
             </Card>

@@ -51,7 +51,6 @@ const blogs = [
         img: [Careercoaching],
         title: 'Career Coaching',
         description: 'The KGC Career Coaching Cell (KGC CCC) was established with the objective of nurturing talent and aptitude to prepare the students for the various competitive exams like Civil Services, Banking services, etc',
-        longDescription:["The KGC Career Coaching Cell (KGC CCC) was established with the objective of nurturing talent and aptitude to prepare the students for the various competitive exams like Civil Services, Banking services, etc."]
     
     },
     {
@@ -59,8 +58,7 @@ const blogs = [
         img: [Youthclub],
         title: 'Youth Club',
         description: ' Youth club of the College is enabling the youth to utilize energies. The objective of the club is to provide a platform for the youth to collectively work towards themselves and society. For accomplishing this aim the club is organizing different activities from time to time.',
-        longDescription:["Youth club of the College is enabling the youth to utilize energies. The objective of the club is to provide a platform for the youth to collectively work towards themselves and society. For accomplishing this aim the club is organizing different activities from time to time."]
-
+       
     },
 
     {
@@ -75,9 +73,18 @@ const blogs = [
         id: 7,
         img: [Lab],
         title: 'Lab',
-        description: 'The college has well-equipped 6 labs for practical work and comprehensive. teaching.College computer labs have as many as 20 computers which have the facility of internet and licenced softwares and projectors to helps students to envisage things better. College Laboratories are equipped with latest apparatus for students.',
-        longDescription:["College Laboratories are equipped with latest apparatus for students.","-> 2 Botony Labs with Capacity of 30 Students","-> 2 Zoology Labs with Capacity of 30 Students","-> 2 Chemistry Labs with Capacity of 30 Students","-> 2 Physics Labs with Capacity of 30 Students","-> 2 Geography Labs with Capacity of 30 Students","-> 1 Computer Labs with Capacity of 15 Students"]
-    },
+        description: 'The college has well-equipped 6 labs for practical work and comprehensive teaching. College computer labs have as many as 20 computers which have the facility of internet and licensed software and projectors to help students envisage things better. College Laboratories are equipped with the latest apparatus for students.',
+        longDescription: [
+          "College Laboratories are equipped with latest apparatus for students.",
+          "Botany has 2 labs with Capacity of 30 Students",
+          "Zoology has 2 labs with Capacity of 30 Students",
+          "Chemistry has 2 labs with Capacity of 30 Students",
+          "Physics has 2 labs with Capacity of 30 Students",
+          "Geography has 2 labs with Capacity of 30 Students",
+          "Computer has 1 lab with Capacity of 15 Students"
+        ]
+      },
+      
     {
         id: 8,
         img: [Auditorium],
@@ -91,7 +98,6 @@ const blogs = [
         img: [Gurudhwar],
         title: 'Gurudhwar Sahib',
         description: ' Sarjit Gurdwara is proposed in the college campus where the staff and students of the college participate actively in the “Community Kitchen” .. They collect the funds and prepare ‘langar’ which is partaken by the neighborhood community enthusiastically.',
-        longDescription:["Sarjit Gurdwara is proposed in the college campus where the staff and students of the college participate actively in the “Community Kitchen” .. ","They collect the funds and prepare ‘langar’ which is partaken by the neighborhood community enthusiastically."]
 
      
     },
@@ -99,8 +105,7 @@ const blogs = [
         id: 10,
         img: [openairtheater],
         title: 'Open Air Theater',
-        description: 'The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hund#d86110 students.',
-        longDescription:["The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. ",". It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hund#d86110 students."]   
+        description: 'The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hund#d86110 students.',  
     },
     {
         id: 11,
@@ -142,15 +147,14 @@ const blogs = [
         img: [Parentteacher],
         title: 'Parent Teacher Association',
         description: 'The Parent Teacher Association is instrumental in providing a forum for open discussions on administrative and academic aspects of the college and their constructive incorporation in policy formulation.Class-wise PTA meetings are held to discuss the academic progress of students.',
-        longDescription:["The Parent Teacher Association is instrumental in providing a forum for open discussions on administrative and academic aspects of the college and their constructive incorporation in policy formulation. Class-wise PTA meetings are held to discuss the academic progress of students."]
     
     },
     {
         id: 16,
         img: [Studentcouncil],
         title: 'Student Council',
-        description: 'The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administe#d86110 oath by the Principal of the college.',
-        longDescription:["The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administe#d86110 oath by the Principal of the college.","Major activities of student council are:","• The student council helps to promote healthy rapport between the students and the college authorities"," • To help in organizing functions like Talent hunt, Prize distribution, Convocation, Sports meet, Freshers and Farewell party."," •To maintain discipline in the institution for proper academic atmosphere. ","• To bring forward the grievances of the students to the notice of the authorities."]
+        description: 'The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administered oath by the Principal of the college.',
+        longDescription:["The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administered oath by the Principal of the college.","Major activities of student council are:","• The student council helps to promote healthy rapport between the students and the college authorities"," • To help in organizing functions like Talent hunt, Prize distribution, Convocation, Sports meet, Freshers and Farewell party."," •To maintain discipline in the institution for proper academic atmosphere. ","• To bring forward the grievances of the students to the notice of the authorities."]
 
     },
     {
@@ -164,8 +168,8 @@ const blogs = [
         id:18,
         img:[SaveWater],
         title : "Save Water",
-        description:  "Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations.collecting rainwater for gardening and limiting water use in landscaping are effective ways to #d86110uce water consumption. ",
-        longDescription:["Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations. ", " Simple actions like fixing leaks, using water-efficient appliances, and turning off taps while brushing teeth can make a significant difference.", "Additionally, collecting rainwater for gardening and limiting water use in landscaping are effective ways to #d86110uce water consumption."]
+        description:  "Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations.collecting rainwater for gardening and limiting water use in landscaping are effective ways to water consumption. ",
+        longDescription:["Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations. ", " Simple actions like fixing leaks, using water-efficient appliances, and turning off taps while brushing teeth can make a significant difference.", "Additionally, collecting rainwater for gardening and limiting water use in landscaping are effective ways to water consumption."]
     }
     ];
 
@@ -247,8 +251,8 @@ Hub of Sports Excellence with an outshining track record.
                                         <Card.Title className='fs-2 mb-4'>{blog.title}</Card.Title>
                                         <Card.Text className=''>{blog.description}{blog.title==="Anti Ragging"&&<span onClick={()=>{
                                         navigate("/contact")
-                                        }} style={{color:"blue",cursor:"pointer", fontWeight:"bolder"}}>{"  "}Report</span>}</Card.Text>
-                                        <Card.Text style={{color:"#d86110", cursor:"pointer", fontWeight:"900"}}>Read More</Card.Text>
+                                        }} style={{color:"red",cursor:"pointer", fontWeight:"bolder"}}>{"  "}Report here</span>}</Card.Text>
+                                      {blog.longDescription && <Card.Text style={{color:"#d86110", cursor:"pointer", fontWeight:"900"}}>Read More</Card.Text>}
                                         
                                         
                                     </Card.Body>

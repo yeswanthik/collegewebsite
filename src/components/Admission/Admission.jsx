@@ -1,7 +1,10 @@
 import { Button } from "react-bootstrap"
 import { Navbarhead } from "../Navbar/Navbar"
+import './Admission.css'
+import { useEffect, useState } from "react";
 
 function Admission(){
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
 
     const handleDownload=()=>{
         const pdfPath = "pdf/admission-form.pdf";
@@ -21,6 +24,16 @@ function Admission(){
         document.body.removeChild(link);
         window.open(pdfPath);
     }
+    useEffect(() => {
+        const checkScreenSize = () => {
+          setIsSmallScreen(window.innerWidth < 768);
+        };
+    
+        checkScreenSize();
+        window.addEventListener('resize', checkScreenSize);
+    
+        return () => window.removeEventListener('resize', checkScreenSize);
+      }, []);
     return  <div className='courses-page'>
     <Navbarhead/>
     <div className="container">
@@ -33,10 +46,11 @@ function Admission(){
 		</div>
 		<div className="row" >
 			<div className="col-md-12 wow fadeInLeft animated animated " style={{visibility: "visible", }}>
-                <div className="d-flex justify-content-between text-danger" style={{ width: "85vw" }}>		<p style={{textAlign: "justify"}}>
-	<strong style={{fontSize: "22px"}}>Minimum Eligibility for Admission:</strong></p>
-    <Button  onClick={handleDownload}  style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
-	Download Application</Button></div>
+                <div className="d-flex justify-content-between " style={{ width: "85vw" ,color:"#d86110"}}>		<p style={{textAlign: "justify"}}>
+	<strong className="headingName col-xs-12">Minimum Eligibility for Admission:</strong></p>
+   {!isSmallScreen?<Button  onClick={handleDownload}  style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
+	Download Application</Button>:<button className="btn"  onClick={handleDownload}  style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
+	Download</button>} </div>
 	
 <p style={{textAlign: "justify"}}>
 For admission in the first year of Arts Faculty, it is mandatory to pass Senior Secondary (10+2) examination.
@@ -46,8 +60,8 @@ For admission in the first year of Arts Faculty, it is mandatory to pass Senior 
     <p style={{textAlign: "justify"}}>
 	Provisional admission will be given to the girl students appearing in the supplementary examination which will be considered regular only after they pass the supplementary examination. For girl students outside Rajasthan state, it is necessary to have completely passed 10+2.</p>
     <p style={{textAlign: "justify"}}>
-	<strong style={{fontSize: "22px"}} className="text-danger">Rules Regarding Admission:</strong></p>
-<div style={{textAlign: "justify"}}>Application for admission to the above classes will be considered done only after filling the prescribed form completely and submitting it, along with the prospectus, to the admission officer within the decided time period..</div>
+	<strong className="headingName" style={{color:"#d86110"}} >Rules Regarding Admission:</strong></p>
+<p style={{textAlign: "justify"}}>Application for admission to the above classes will be considered done only after filling the prescribed form completely and submitting it, along with the prospectus, to the admission officer within the decided time period..</p>
 <div>
 The following certificates will have to be attached with the admission application form-:</div>
     <ul>
@@ -74,7 +88,7 @@ Admission will be considered provisional until approval from the University.
 
 </ul>
 <p style={{textAlign: "justify"}}>
-	<strong style={{fontSize: "22px"}} className="text-danger">Rules Related to Fees:</strong></p>
+	<strong className="headingName" style={{color:"#d86110"}} >Rules Related to Fees:</strong></p>
 <div style={{textAlign: "justify"}}>
 Fee for the entire session will have to be deposited irrespective of the day on which the student is admitted.</div>
 <div>
@@ -91,7 +105,7 @@ Receipt of college fees should be kept safe and presented when asked by the offi
 </li>
 </ul>
 <p style={{textAlign: "justify"}}>
-	<strong style={{fontSize: "22px"}} className="text-danger">Rules Regarding Attendance:</strong></p>
+	<strong className="headingName" style={{color:"#d86110"}} >Rules Regarding Attendance:</strong></p>
 <div>
 	The College has the following Rules:</div>
 <ul>
@@ -105,7 +119,7 @@ Receipt of college fees should be kept safe and presented when asked by the offi
 
 </ul>
 <p style={{textAlign: "justify"}}>
-	<strong style={{fontSize: "22px"}} className="text-danger">College Withdrawl Rules:</strong></p>
+	<strong className="headingName" style={{color:"#d86110"}} >College Withdrawl Rules:</strong></p>
 <ul>
 <li>If any student wants to leave the college in the middle of the session, she will have to apply in written. If she leaves the college without permission, she will be charged tuition fees for the entire session or the month in which she has applied for the college.</li>
 <li>The student will have to apply in written for Transfer Certificate (T.C.)
@@ -115,7 +129,7 @@ and have to pay the prescribed fee and other dues.
 
 </ul>
 <p style={{textAlign: "justify"}}>
-	<strong style={{fontSize: "22px"}}className="text-danger">Objectives of the College:</strong></p>
+	<strong className="headingName" style={{color:"#d86110"}}>Objectives of the College:</strong></p>
 
 <ul>
 	<li>
@@ -128,7 +142,7 @@ and have to pay the prescribed fee and other dues.
 </ul>
 
 <p style={{textAlign: "justify"}}>
-	<strong style={{fontSize: "22px"}}className="text-danger">Rules Related to Discipline:</strong></p>
+	<strong className="headingName" style={{color:"#d86110"}}>Rules Related to Discipline:</strong></p>
 
 <ul>
 	<li>

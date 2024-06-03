@@ -11,23 +11,23 @@ const courses = [
     {
         id: 2,
         img: [BusinessCourseImg],
-        title: 'Science Course',
+        title: 'SCIENCE',
         description: 'Three Year Degree Course in Science (B.Sc.) ',
-        subjects:[ "Compulsory Subject for all courses", "1. Chemistry" ,'2. Physics ',"3. Biology Zoology", "4. Botany," ,"5. Mathematics" ,"6. Computer"],
+        subjects:[ "Compulsory Subject for all courses", "1. Physics" ,"2. Chemistry","3. Mathematics", "4. Botany" ,"5. Zoology"],
     },
     {
         id: 3,
         img: [ComputerScienceCourseImg],
-        title: 'Computer Science Course',
+        title: 'COMPUTER SCIENCE',
         description: 'Compulsory Subject (Only for first year girl students)',
         subjects:['1. Elementary Computer (Elem. Computer)','2. Environmental Std.' , '3. General Hindi/English']
         },
     {
         id: 1,
         img: [ArtCourseImg],
-        title: 'Art Course',
+        title: 'ARTS',
         description: 'Three Year Degree Course in Arts (B.A.) ',
-        subjects:["Optional Sub. Mark any three of the following.", "1. English Literature"," 2. Punjabi Literature"," 3. Hindi literature", "4. Political Science" ,"5. Geography", "6. Economics" ,"7. Public Administration", "8. Home Science", "9. Computer", "10. Mathematics", "11. Sociology", "12. History"]
+        subjects:["Optional Sub. Any three of the following.", "1. English Literature"," 2. Punjabi Literature"," 3. Hindi literature", "4. Political Science" ,"5. Geography", "6. Economics" ,"7. Public Administration", "8. Home Science", "9. Computer", "10. Mathematics", "11. Sociology", "12. History"]
      },
    
     
