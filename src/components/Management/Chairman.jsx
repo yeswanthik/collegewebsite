@@ -15,7 +15,7 @@ function Chairman() {
 
 <div className="row">
 
-<div className='col-lg-4 d-flex mt-5 ml-4'>
+<div className='col-lg-4 d-flex mt-5 justify-content-center'>
                     <img src={ChairmanImage} className='img-fluid w-75 h-75 '  alt="" />
                 </div>
                 <div className='col-lg-8 d-flex flex-column justify-content-center mb-4 mb-lg-0'>

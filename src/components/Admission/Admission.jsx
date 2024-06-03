@@ -35,7 +35,7 @@ function Admission(){
 			<div className="col-md-12 wow fadeInLeft animated animated " style={{visibility: "visible", }}>
                 <div className="d-flex justify-content-between text-danger" style={{ width: "85vw" }}>		<p style={{textAlign: "justify"}}>
 	<strong style={{fontSize: "22px"}}>Minimum Eligibility for Admission:</strong></p>
-    <Button  onClick={handleDownload} className="btn-danger" style={{textAlign: "justify"}}>
+    <Button  onClick={handleDownload}  style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
 	Download Application</Button></div>
 	
 <p style={{textAlign: "justify"}}>

@@ -67,7 +67,7 @@ Considering the spread of education and the need of the area, the school was upg
 In the institution, efforts are made for the all-round development of the personality of the students and all efforts are made in such a direction that the students can find the path to their progress by adopting social diversities in practical life. I am sure that you will have all the necessary facilities available in the institution and you will get a suitable environment for study and contemplation.
 </p>
 <p className='mb-4 mb-lg-5'>Future plans include proposal to publish annual magazine of the institution, to start new departments in the college in the coming session, special classes will be organized to give emphasis on spoken English as per the demand of time and for preparation of competitive examinations. Our special efforts will be on obtaining maximum marks as well as quality education, so that more and more students get selected in various competitive examination and benefit the society.With best wishes for your bright future... </p><Link to="/contact">
-                        <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
+                        <button type='button' className='btn  btn-lg mx-0 mx-sm-2 my-2 my-sm-0' style={{ backgroundColor:"#d86110",color:"white"}}>Contact Us</button>
                     </Link>
                 </div>
                 <div className='col-lg-6 d-flex justify-content-center'>

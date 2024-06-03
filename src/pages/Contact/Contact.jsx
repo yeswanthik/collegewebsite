@@ -225,7 +225,7 @@ function Contact() {
                           onChange={handleInputChange} as="textarea" rows={3} />
                 </Form.Group>
 
-                <Button variant="danger btn-lg" type='submit' >Submit</Button>
+                <Button variant=" btn-lg"  style={{backgroundColor:"#d86110",color:"white"}}type='submit' >Submit</Button>
             </Form>
         </div>
 

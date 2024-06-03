@@ -13,7 +13,7 @@ const courses = [
         img: [BusinessCourseImg],
         title: 'Science Course',
         description: 'Three Year Degree Course in Science (B.Sc.) ',
-        subjects:[ "Compulsory Subject", "1. Chemistry" ,'2. Physics ',"3. Biology Zoology", "4. Botany," ,"5. Mathematics" ,"6. Computer"],
+        subjects:[ "Compulsory Subject for all courses", "1. Chemistry" ,'2. Physics ',"3. Biology Zoology", "4. Botany," ,"5. Mathematics" ,"6. Computer"],
     },
     {
         id: 3,
@@ -53,7 +53,7 @@ function Courses() {
         <div className="row">
                 <div className='d-flex flex-column justify-content-center mb-4 mb-lg-0'>
             <div className='w-100 container h-100 d-flex flex-column  text-dark mt-2'>
-                <p className='mb-2'>KGC offers Bachelor of Arts (BA) and Bachelor of Science (BSc) degrees, providing diverse academic pathways and opportunities for students to pursue their interests and career goals.
+                <p className='mb-2' style={{fontWeight:"bolder"}}>KGC offers Bachelor of Arts (BA) and Bachelor of Science (BSc) degrees, providing diverse academic pathways and opportunities for students to pursue their interests and career goals.
 </p>  </div>
         </div>
         </div>
@@ -66,7 +66,7 @@ function Courses() {
                         <Card onClick={() => handleReadMoreClick(course.id)} className='text-dark shadow scale-hover-effect'>
                             <Card.Img src={course.img} height={250}  width={100}  />
                             <Card.Body className='d-flex flex-column align-items-center justify-content-center p-md-5'>
-                                <Card.Title className='fs-3 text-danger'>{course.title}</Card.Title>
+                                <Card.Title className='fs-3 ' style={{color:"#d86110"}}>{course.title}</Card.Title>
                                 <Card.Text className='text-center'>{course.description}</Card.Text>
                                
                                 {expandedCourseId === course.id && (
@@ -76,7 +76,7 @@ function Courses() {
                                             ))}
                                         </div>
                                     )}
-                                    <Card.Text onClick={() => handleReadMoreClick(course.id)} style={{color:"red", cursor:"pointer", fontWeight:"900"}}> {expandedCourseId === course.id ? 'Read Less' : 'Read More'}</Card.Text>
+                                    <Card.Text onClick={() => handleReadMoreClick(course.id)} style={{color:"#d86110", cursor:"pointer", fontWeight:"900"}}> {expandedCourseId === course.id ? 'Read Less' : 'Read More'}</Card.Text>
                                
                             </Card.Body>
                         </Card>

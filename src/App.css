@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-h1, h2, h3, p, a {
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3,h4, p, a {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 header h1 {
@@ -16,7 +16,7 @@ header h1 {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #dc3545;
+  color: #d86110;
 }
 
 nav .navbar-toggler:focus {
@@ -36,11 +36,11 @@ nav .navbar-toggler:focus {
 }
 
 .footer-social-icons li:hover svg {
-  fill: #212529;
+  fill: red;
 }
 
 .footer-navigation li:hover {
-  color: #212529;
+  color:red;
 }
 
 @media only screen and (max-width: 992px) {

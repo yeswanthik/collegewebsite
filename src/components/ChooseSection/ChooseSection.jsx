@@ -61,7 +61,7 @@ Voting is a fundamental democratic right that empowers individuals to have a voi
          
             <div className="text-center">
     <Link to="/whykgc">
-      <button type="button" className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0">Learn More</button>
+      <button type="button" className="btn btn-lg mx-0 mx-sm-2 my-2 my-sm-0"   style={{backgroundColor:"#d86110", color:"white"}}>Learn More</button>
     </Link>
   </div>
         </div>

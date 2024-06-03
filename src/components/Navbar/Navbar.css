@@ -11,4 +11,46 @@
       font-size: 16px;
     }
   }
-  
+  .header {
+    background-color: orange; /* Oracle's orange color */
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%; /* Make the logo circular */
+    margin-right: 20px;
+}
+
+.header h1 {
+    margin: 5px;
+    font-size: 1.875em; /* Increased font size by 25% for college name */
+    text-shadow: 1px 1px 3px blue;
+}
+
+.header h2, .header h3 {
+    margin: 5px;
+    font-size: 0.9375em; /* Increased font size by 25% for place, affiliation, and city */
+    text-shadow: 1px 1px 3px blue;
+}
+
+.college-info {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; /* Margin between languages */
+}
+.header-small {
+  padding-top: 3rem;
+}
+
+.header-large {
+  padding-bottom: 3rem;
+}

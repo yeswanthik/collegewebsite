@@ -44,7 +44,7 @@ const blogs = [
         img: [Scholarships],
         title: 'Scholarships',
         description: ' Scholarships are offered to the students belonging to SC, ST and OBC categories. Merit cum means scholarships and Fee Concessions are given to students from economically weaker sections of the society',
-        longDescription:["These are widely notified through the notice boards and announcements.Various scholarships offered are:","1. KHALSA SHIKSHAN SAMITI SCHOLARSHIP","2. Scheduled Caste Scholarship","3. Backward Class Scholarship","4. State Merit Scholarship","5. Minority Communities Scholarship","6. University Alumni Association"]
+        longDescription:["These are widely notified through the notice boards and announcements.Various scholarships offe#d86110 are:","1. KHALSA SHIKSHAN SAMITI SCHOLARSHIP","2. Scheduled Caste Scholarship","3. Backward Class Scholarship","4. State Merit Scholarship","5. Minority Communities Scholarship","6. University Alumni Association"]
     },
     {
         id: 4,
@@ -68,7 +68,7 @@ const blogs = [
         img: [Library],
         title: 'Library',
         description: 'College library: resource hub for academic materials. A library in college is a resource center providing access to a diverse collection of books, academic journals, multimedia materials, and digital resources to support learning, research, and intellectual exploration by students, faculty, and staff.',
-        longDescription:["The library has more than 60,000 books and subscribes to 20 journals. Besides it receives 13 newspapers and 30 magazines. Library and reading room are kept open to all students from 9 am to 4 pm on all working days.It has an open access facility. The entire collection is automated using the SOUL Library Management Software and all metadata entries are stored there only.","All books have been automated with barcode labels and charging & discharging of books is carried out through the use of laser scanner. For meritorious and economically backward students book bank facility is available. The library also provides books to students during the examination time with collection of deposit money.","LIBRARY SERVICES:","• Open access system","• Book Bank facility","•	Air cooled Reading Hall with a capacity of 60 students","•	Reprographic service","• Reference service","•	Small separate collection of books for competitive exams (not to be issued)","•	OPAC","• Internet facility","•	Periodicals & Magazines"]
+        longDescription:["The library has more than 60,000 books and subscribes to 20 journals. Besides it receives 13 newspapers and 30 magazines. Library and reading room are kept open to all students from 9 am to 4 pm on all working days.It has an open access facility. The entire collection is automated using the SOUL Library Management Software and all metadata entries are sto#d86110 there only.","All books have been automated with barcode labels and charging & discharging of books is carried out through the use of laser scanner. For meritorious and economically backward students book bank facility is available. The library also provides books to students during the examination time with collection of deposit money.","LIBRARY SERVICES:","• Open access system","• Book Bank facility","•	Air cooled Reading Hall with a capacity of 60 students","•	Reprographic service","• Reference service","•	Small separate collection of books for competitive exams (not to be issued)","•	OPAC","• Internet facility","•	Periodicals & Magazines","LIBRARY RULES FOR STUDENTS:","•	Library books will be issued to the students on the student Identity-cum-Library Card.","•	A penalty of Rs.50/-will be levied for the issue of duplicate card.","•	The loss of card should immediately be communicated to the Librarian so that the library staff may keep an eye on the issue of books on the lost Library Card.","•	The student whose library card has been lost will be held responsible for books issued on that card.","•	Students of all classes are entitled to borrow full set books on admission.","•	The extra books may be retained by borrower for a period of 14 days after which they must be returned or reissued, the later depending on the discretion of the Librarian.","•	Fine of Rs.1/- per book per day will be charged after the due date.","•	Leave from the college does not imply exemption from the return of the books. The books may be sent to the library by post under registered cover. If the day of return happens to be a holiday, the book must be returned on the next working day.","•	If the book is found torn, the borrower will be required to replace the book or pay double the price as damage. The borrower should examine the books and draw the attention of the issuing authority to the defects detected and issuing authorities will sign on the book as evidence.","•	The books if lost should be reported to the Librarian immediately. The book lost will have to be replaced with a new one with the approval of the Librarian within 14 days failing which she will be required to pay double the price.","•	Current library periodicals are to be read in the library premises only. Any person found taking the periodicals outside the library or tearing spoiling the pages of a periodical will be fined heavily.","•	The students are expected to read notice issued by the Librarian from time to time. No excuse will be entertained for ignorance of information notified earlier.","•	Perfect order and silence should be maintained in the library at all times.","•	Personal books, files, bags, raincoats, umbrellas etc. should be placed at property counter. Taking unissued books beyond issue counter is strictly prohibited.","•	The Library Security can be claimed within 6 months after leaving the college otherwise it will lapse."]
 
     },
     {
@@ -99,8 +99,8 @@ const blogs = [
         id: 10,
         img: [openairtheater],
         title: 'Open Air Theater',
-        description: 'The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hundred students.',
-        longDescription:["The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. ",". It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hundred students."]   
+        description: 'The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hund#d86110 students.',
+        longDescription:["The college campus has a spacious open- air theatre which provides a platform to conduct departmental activities as well as host various cultural events and exhibitions. ",". It is also a favorite space for student interaction and creative exchange of ideas. It has seating capacity of approx. 600 hund#d86110 students."]   
     },
     {
         id: 11,
@@ -113,9 +113,9 @@ const blogs = [
     {
         id: 12,
         img: [Cafetaria],
-        title: 'Cafetatia',
-        description: 'Khalsa Girls College canteen is a thriving hub of activity in the College throughout the year. The canteen, with a covered area of 600 sq.ft, has a seating capacity of 45 students and a separate section for faculty. A variety of Indian food and snack items are provided to the students and staff of the college with highest quality.',
-        longDescription:["Khalsa Girls College canteen is a thriving hub of activity in the College throughout the year. The canteen, with a covered area of 600 sq.ft, has a seating capacity of 45 students and a separate section for faculty.A variety of Indian food and snack items are provided to the students and staff of the college with highest quality. ","Canteen has a kitchen and kitchen staff takes extra care to provide the students and staff with nutritious and hygienic food. Fresh Juice and Snack Corner is a popular spot where students can enjoy fresh juice and snack .","The Canteen Monitoring Committee keeps an eye on the working of the canteen and conducts periodical inspection to check the production and sale of quality food and rendering of decent service at reasonable and approved rates."]
+        title: 'Cafetaria',
+        description: 'Khalsa Girls College canteen is a thriving hub of activity in the College throughout the year. The canteen, with a cove#d86110 area of 600 sq.ft, has a seating capacity of 45 students and a separate section for faculty. A variety of Indian food and snack items are provided to the students and staff of the college with highest quality.',
+        longDescription:["Khalsa Girls College canteen is a thriving hub of activity in the College throughout the year. The canteen, with a cove#d86110 area of 600 sq.ft, has a seating capacity of 45 students and a separate section for faculty.A variety of Indian food and snack items are provided to the students and staff of the college with highest quality. ","Canteen has a kitchen and kitchen staff takes extra care to provide the students and staff with nutritious and hygienic food. Fresh Juice and Snack Corner is a popular spot where students can enjoy fresh juice and snack .","The Canteen Monitoring Committee keeps an eye on the working of the canteen and conducts periodical inspection to check the production and sale of quality food and rendering of decent service at reasonable and approved rates."]
 
     },
     {
@@ -149,8 +149,8 @@ const blogs = [
         id: 16,
         img: [Studentcouncil],
         title: 'Student Council',
-        description: 'The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administered oath by the Principal of the college.',
-        longDescription:["The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administered oath by the Principal of the college.","Major activities of student council are:","• The student council helps to promote healthy rapport between the students and the college authorities"," • To help in organizing functions like Talent hunt, Prize distribution, Convocation, Sports meet, Freshers and Farewell party."," •To maintain discipline in the institution for proper academic atmosphere. ","• To bring forward the grievances of the students to the notice of the authorities."]
+        description: 'The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administe#d86110 oath by the Principal of the college.',
+        longDescription:["The college has a very dynamic student council of 15 members functioning under the patronage of the principal and two senior members of the faculty. Newly elected student Council is administe#d86110 oath by the Principal of the college.","Major activities of student council are:","• The student council helps to promote healthy rapport between the students and the college authorities"," • To help in organizing functions like Talent hunt, Prize distribution, Convocation, Sports meet, Freshers and Farewell party."," •To maintain discipline in the institution for proper academic atmosphere. ","• To bring forward the grievances of the students to the notice of the authorities."]
 
     },
     {
@@ -164,8 +164,8 @@ const blogs = [
         id:18,
         img:[SaveWater],
         title : "Save Water",
-        description:  "Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations.collecting rainwater for gardening and limiting water use in landscaping are effective ways to reduce water consumption. ",
-        longDescription:["Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations. ", " Simple actions like fixing leaks, using water-efficient appliances, and turning off taps while brushing teeth can make a significant difference.", "Additionally, collecting rainwater for gardening and limiting water use in landscaping are effective ways to reduce water consumption."]
+        description:  "Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations.collecting rainwater for gardening and limiting water use in landscaping are effective ways to #d86110uce water consumption. ",
+        longDescription:["Saving water is crucial for conserving this vital resource and ensuring sustainable access for future generations. ", " Simple actions like fixing leaks, using water-efficient appliances, and turning off taps while brushing teeth can make a significant difference.", "Additionally, collecting rainwater for gardening and limiting water use in landscaping are effective ways to #d86110uce water consumption."]
     }
     ];
 
@@ -248,7 +248,8 @@ Hub of Sports Excellence with an outshining track record.
                                         <Card.Text className=''>{blog.description}{blog.title==="Anti Ragging"&&<span onClick={()=>{
                                         navigate("/contact")
                                         }} style={{color:"blue",cursor:"pointer", fontWeight:"bolder"}}>{"  "}Report</span>}</Card.Text>
-                                        <Card.Text style={{color:"red", cursor:"pointer", fontWeight:"900"}}>Read More</Card.Text>
+                                        <Card.Text style={{color:"#d86110", cursor:"pointer", fontWeight:"900"}}>Read More</Card.Text>
+                                        
                                         
                                     </Card.Body>
                                 </Card>

@@ -43,7 +43,7 @@ function Careers(){
                 <p className='mb-3'>If you are passionate about empowering students to achieve their full potential and are committed to excellence in education, we encourage you to explore our current job openings and consider joining our team. Together, we can make a meaningful impact on the future of education. Join us at Khalsa Girls College and become part of a vibrant community dedicated to academic excellence and student success.</p>
 
                 <Link to="/" className='text-center'>
-                    <button onClick={handleDownload} type='button' className='btn btn-danger btn-lg mt-2 mb-2'>Download Application</button>
+                    <button onClick={handleDownload} type='button' className='btn  btn-lg mt-2 mb-2' style={{ backgroundColor:"#d86110",color:"white"}}>Download Application</button>
                 </Link>
                 </div>
 </div>
