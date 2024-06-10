@@ -310,6 +310,7 @@ const handleDownload=(path,name)=>{
                         <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/zoobsc.pdf","Zoology Syllabus")}}>Zoology Syllabus</NavDropdown.Item>
                         <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/babscmaths.pdf","Maths Syllabus")}}>Maths Syllabus</NavDropdown.Item>
                         <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/bscchem.pdf","Chemistry Syllabus")}}>Chemistry Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/bsccomplete.pdf","Complete Bsc Syllabus")}}>Complete Syllabus</NavDropdown.Item>
                   
                
             </NavDropdown>
