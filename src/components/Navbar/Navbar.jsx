@@ -142,6 +142,33 @@ const handleDownload=(path,name)=>{
        onMouseEnter={coursehandleMouseEnter} 
        onMouseLeave={coursehandleMouseLeave}
        style={{ backgroundColor: showCourse ? 'white' : '' }}>
+        <NavDropdown
+                title={<span className="text-dark">BSC</span>}
+                onMouseEnter={bscHandleMouseEnter}
+                onMouseLeave={bscHandleMouseLeave}
+                href="courses"
+            >
+               
+                
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/botanybsc.pdf","Botony")}}> Botony Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/zoobsc.pdf","Zoology Syllabus")}}>Zoology Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/babscmaths.pdf","Maths Syllabus")}}>Maths Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/bscchem.pdf","Chemistry Syllabus")}}>Chemistry Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/bsccomplete.pdf","Complete Bsc Syllabus")}}>Complete Syllabus</NavDropdown.Item> 
+            </NavDropdown>
+           
+            <NavDropdown
+                title={<span className="text-dark">BA</span>}
+                onMouseEnter={baHandleMouseEnter}
+                onMouseLeave={baHandleMouseLeave}
+                href="courses"
+            >
+              
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/baps.pdf","political science")}}> Political Science Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/baeng.pdf","English Syllabus")}}>English Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/babscmaths.pdf","Maths Syllabus")}}>Maths Syllabus</NavDropdown.Item>
+                   
+            </NavDropdown>
       </NavDropdown>
       <NavDropdown title={<span className={`text-${showAdmission ? 'dark' : 'light'}`}>Admission</span>} id="about-us-dropdown" 
        show={showAdmission}
