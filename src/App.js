@@ -13,6 +13,7 @@ import Careers from './pages/Careers/Careers';
 import President from './components/Management/President';
 import Principal from './components/Management/Principal';
 import Chairman from './components/Management/Chairman';
+import { CollegeDetails } from './components/CollegeDetails/CollegeDetails';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/chairman' element={<Chairman/>}/>
         <Route path='/principal' element={<Principal/>}/>
         <Route path='/admission' element={<Admission/>}/>
+        <Route path='/collegedetails' element={<CollegeDetails/>}/>
         <Route path='/visionandmission' element={<VisionAndMission/>}/>
         <Route path='/careers'element={<Careers/>}/>
       </Routes>
@@ -57,6 +59,7 @@ function App() {
                     </svg>
                   </li>
                 </Link>
+                
               
                 <Link to="/contact">
                   <li>
@@ -65,6 +68,21 @@ function App() {
                     </svg>
                   </li>
                 </Link>
+                {/* <Link to={{ pathname: "https://www.google.com/maps?q=29.91733599590189,74.18012682531497" }} target="_blank">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFFFFF" className="bi bi-google-maps" viewBox="0 0 48 48">
+                      <path d="M22 48c-2.2 0-4.1-1.1-5.3-2.7l-.1-.1C12.1 41.4 3 27.6 3 18 3 8 10.2 0 22 0s19 8 19 18c0 9.6-9.1 23.4-13.6 27.2-.1.1-.1.1-.2.2C26.1 46.9 24.2 48 22 48zM22 3C12.6 3 6 9.8 6 18c0 8 8.2 20.6 13.3 24.8.7.8 1.7 1.2 2.7 1.2 1 0 2-.4 2.8-1.1 5.1-4.3 13.2-16.9 13.2-24.9C38 9.8 31.4 3 22 3zm0 10c-3.7 0-7 3.3-7 7s3.3 7 7 7 7-3.3 7-7-3.3-7-7-7zM22 24c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm18-1c-1.1 0-2.1-.9-2.1-2s.9-2 2.1-2c1.1 0 2 .9 2 2s-.9 2-2 2z"/>
+                      </svg>
+                      </li>
+                </Link> */}
+                <a href="https://www.google.com/maps?q=29.91733599590189,74.18012682531497" target="_blank" rel="noopener noreferrer">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFFFFF" className="bi bi-google-maps" viewBox="0 0 48 48">
+                      <path d="M22 48c-2.2 0-4.1-1.1-5.3-2.7l-.1-.1C12.1 41.4 3 27.6 3 18 3 8 10.2 0 22 0s19 8 19 18c0 9.6-9.1 23.4-13.6 27.2-.1.1-.1.1-.2.2C26.1 46.9 24.2 48 22 48zM22 3C12.6 3 6 9.8 6 18c0 8 8.2 20.6 13.3 24.8.7.8 1.7 1.2 2.7 1.2 1 0 2-.4 2.8-1.1 5.1-4.3 13.2-16.9 13.2-24.9C38 9.8 31.4 3 22 3zm0 10c-3.7 0-7 3.3-7 7s3.3 7 7 7 7-3.3 7-7-3.3-7-7-7zM22 24c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm18-1c-1.1 0-2.1-.9-2.1-2s.9-2 2.1-2c1.1 0 2 .9 2 2s-.9 2-2 2z"/>
+                      </svg>
+                  </li>
+                </a>
+
               </ul>
             </div>
             <div className='col-md-7 col-lg-6'>
@@ -83,28 +101,32 @@ function App() {
                     <Link to="/blog" className='text-decoration-none ' style={{color:"#FFFFFF"}}>
                       <li className='text-uppercase fw-semibold'>Management</li>
                     </Link>
-                    <Link to="/contact" className='text-decoration-none ' style={{color:"#FFFFFF"}}>
+                    <Link to="/admission" className='text-decoration-none ' style={{color:"#FFFFFF"}}>
                       <li className='text-uppercase fw-semibold'>apply</li>
+                    </Link>
+                    <Link to="/courses#faqs" className='text-decoration-none ' style={{color:"#FFFFFF"}}>
+                      <li className='text-uppercase fw-semibold'>FAQs</li>
                     </Link>
                   </ul>
                 </div>
                 <div className='col-12 col-md-6 col-lg-7'>
                   <ul className='list-unstyled mb-0' style={{color:"#FFFFFF"}}>
                     <li>
-                      <p>Ward no-19 Adarsh collony Sadul Sahar Dist:Sri Ganganagar, Rajasthan India-335062</p>
+                    <p>Address: Ward no-19 Adarsh collony Sadul Sahar Dist:Sri Ganganagar, Rajasthan India-335062</p>
                     </li>
-                    <li>
+                    {/* <li>
                       <p>Phone Number-1503 222464</p>
+                    </li> */}
+                    <li>
+                    <p>Mobile Numbers: +91-9314355027, +91-9414508064</p>
                     </li>
                     <li>
-                      <p>Mobile Number-8058055027, 9414508064</p>
-                    </li>
-                    <li>
-                      <p>Email-kgcsds2007@gmail.com</p>
+                      <p>Email: kgcsds2007@gmail.com</p>
                     </li>
                   </ul>
+                  {/* <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.1631171380445!2d74.17763777533975!3d29.917205874987978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391655cd2229449b%3A0xcd556288b8d3d1b8!2sKHALSA%20GIRLS%20COLLEGE%20SADUL%20SHAHAR!5e0!3m2!1sen!2sca!4v1717969368870!5m2!1sen!2sca" width="250" height="150" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
                 </div>
-              </div>
+                </div>
             </div>
           </div>
         </div>

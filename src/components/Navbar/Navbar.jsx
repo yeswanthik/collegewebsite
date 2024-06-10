@@ -12,6 +12,8 @@ export const Navbarhead=()=>{
   const [showWhyKGCDropdown, setShowWhyKGCDropdown] = useState(false);
   const [showCourse,setShowCourse] =useState(false)
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const [, setShowBaSubmenu] = useState(false);
+  const [, setShowBscSubmenu] = useState(false);
 
   useEffect(() => {
     const checkScreenSize = () => {
@@ -51,6 +53,33 @@ export const Navbarhead=()=>{
   const handleWhyKGCDropdownLeave = () => {
     setShowWhyKGCDropdown(false);
   };
+  const baHandleMouseEnter = () => {
+    setShowBaSubmenu(true);
+};
+
+const baHandleMouseLeave = () => {
+    setShowBaSubmenu(false);
+};
+const bscHandleMouseEnter = () => {
+  setShowBscSubmenu(true);
+};
+
+const bscHandleMouseLeave = () => {
+  setShowBscSubmenu(false);
+};
+
+const handleDownload=(path,name)=>{
+    const filePath = path;
+    const link = document.createElement('a');
+    link.href = filePath;
+    link.download = name;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    window.open(filePath);
+
+}
  
     return <Container className=' w-100  mb-3 '>
         <Navbar expand="lg" className=' d-block d-sm-none justify-content-center w-100  text-dark  ' style={{backgroundColor:"#d86110"}}>
@@ -74,6 +103,8 @@ export const Navbarhead=()=>{
            
            <NavDropdown.Item href='/principal'>Principal Message</NavDropdown.Item>
            <NavDropdown.Item href='/about'>Our Winners</NavDropdown.Item>
+           <NavDropdown.Item href='/gallery'>Gallery</NavDropdown.Item>
+           <NavDropdown.Item href='/collegedetails'>College Details</NavDropdown.Item>
        <NavDropdown.Item href='/contact' >Contact Us</NavDropdown.Item>
          </NavDropdown>
        <Nav.Link href='/management' className=' text-light '>Management</Nav.Link>
@@ -83,21 +114,7 @@ export const Navbarhead=()=>{
        onMouseLeave={handleWhyKGCDropdownLeave}
        style={{ backgroundColor: showWhyKGCDropdown ? 'white' : '' }}
      >
-       {/* <NavDropdown.Item href='/whykgc'>Anti Ragging</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Scholarships</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Career Coaching</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Youth Club</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Library</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Lab</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Auditorium</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Gurudhwar Sahib</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Open Air Theater</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Smart Classes</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Cafetaria</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Health Care</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Parent Teacher Association</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Student Council</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Multi Purpose Hall</NavDropdown.Item> */}
+       
         <NavDropdown.Item href='/whykgc#blog-1'>Right to Vote</NavDropdown.Item>
    <NavDropdown.Item href='/whykgc#blog-2'>Anti Ragging</NavDropdown.Item>
    <NavDropdown.Item href='/whykgc#blog-3'>Scholarships</NavDropdown.Item>
@@ -125,8 +142,6 @@ export const Navbarhead=()=>{
        onMouseEnter={coursehandleMouseEnter} 
        onMouseLeave={coursehandleMouseLeave}
        style={{ backgroundColor: showCourse ? 'white' : '' }}>
-       <NavDropdown.Item href='courses'>BA</NavDropdown.Item>
-       <NavDropdown.Item href='courses'>B.Sc</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title={<span className={`text-${showAdmission ? 'dark' : 'light'}`}>Admission</span>} id="about-us-dropdown" 
        show={showAdmission}
@@ -166,7 +181,7 @@ export const Navbarhead=()=>{
                 <h1>Khalsa Girls College</h1>
                 <h2>Sadul Shahar</h2>
                 <h3>Affiliated to Maharaj Ganga Singh University</h3>
-                <h3>Bikaner-335062</h3>
+                
             </div>
             </div>
             <div id="punjabi" class="college-info text-center text-md-left">
@@ -174,7 +189,7 @@ export const Navbarhead=()=>{
                 <h1>ਖਾਲਸਾ ਗਰਲਜ਼ ਕਾਲਜ</h1>
                 <h2>ਸਾਦੁਲਸ਼ਹਿਰ</h2>
                 <h3>ਮਹਾਰਾਜਾ ਗੰਗਾ ਸਿੰਘ ਯੂਨੀਵਰਸਿਟੀ ਨਾਲ ਸੰਬੰਧਤ</h3>
-                <h3>ਬੀਕਾਣੇਰ-335062</h3>
+                
             </div>
         </div>
         <div id="hindi" class="college-info text-center text-md-left">
@@ -182,7 +197,7 @@ export const Navbarhead=()=>{
                 <h1>खालसा गर्ल्स कॉलेज</h1>
                 <h2>सादुलशहर</h2>
                 <h3>महाराजा गंगा सिंह विश्वविद्यालय से सम्बद्ध</h3>
-                <h3>बीकानेर-335062</h3>
+               
             </div>
         </div>
          
@@ -214,6 +229,8 @@ export const Navbarhead=()=>{
            
            <NavDropdown.Item href='/principal'>Principal Message</NavDropdown.Item>
            <NavDropdown.Item href='/about'>Our Winners</NavDropdown.Item>
+           <NavDropdown.Item href='/gallery'>Gallery</NavDropdown.Item>
+           <NavDropdown.Item href='/collegedetails'>College Details</NavDropdown.Item>
        <NavDropdown.Item href='/contact' >Contact Us</NavDropdown.Item>
          </NavDropdown>
        <Nav.Link href='/management' className=' text-light '>Management</Nav.Link>
@@ -223,21 +240,7 @@ export const Navbarhead=()=>{
        onMouseLeave={handleWhyKGCDropdownLeave}
        style={{ backgroundColor: showWhyKGCDropdown ? 'white' : '' }}
      >
-       {/* <NavDropdown.Item href='/whykgc'>Anti Ragging</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Scholarships</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Career Coaching</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Youth Club</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Library</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Lab</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Auditorium</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Gurudhwar Sahib</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Open Air Theater</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Smart Classes</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Cafetaria</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Health Care</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Parent Teacher Association</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Student Council</NavDropdown.Item>
-       <NavDropdown.Item href='/whykgc'>Multi Purpose Hall</NavDropdown.Item> */}
+      
         <NavDropdown.Item href='/whykgc#blog-1'>Right to Vote</NavDropdown.Item>
    <NavDropdown.Item href='/whykgc#blog-2'>Anti Ragging</NavDropdown.Item>
    <NavDropdown.Item href='/whykgc#blog-3'>Scholarships</NavDropdown.Item>
@@ -265,8 +268,37 @@ export const Navbarhead=()=>{
        onMouseEnter={coursehandleMouseEnter} 
        onMouseLeave={coursehandleMouseLeave}
        style={{ backgroundColor: showCourse ? 'white' : '' }}>
-       <NavDropdown.Item href='courses'>BA</NavDropdown.Item>
-       <NavDropdown.Item href='courses'>B.Sc</NavDropdown.Item>
+        <NavDropdown.Item href='/courses'>Our Courses</NavDropdown.Item>
+        <NavDropdown.Divider />
+
+<NavDropdown
+                title={<span className="text-dark">BSC</span>}
+                onMouseEnter={bscHandleMouseEnter}
+                onMouseLeave={bscHandleMouseLeave}
+                href="courses"
+            >
+               
+                
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/botanybsc.pdf","Botony")}}> Botony Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/zoobsc.pdf","Zoology Syllabus")}}>Zoology Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/babscmaths.pdf","Maths Syllabus")}}>Maths Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/bscchem.pdf","Chemistry Syllabus")}}>Chemistry Syllabus</NavDropdown.Item>
+                  
+               
+            </NavDropdown>
+           
+            <NavDropdown
+                title={<span className="text-dark">BA</span>}
+                onMouseEnter={baHandleMouseEnter}
+                onMouseLeave={baHandleMouseLeave}
+                href="courses"
+            >
+              
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/baps.pdf","political science")}}> Political Science Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/baeng.pdf","English Syllabus")}}>English Syllabus</NavDropdown.Item>
+                        <NavDropdown.Item style={{ fontSize: "smaller" }} onClick={()=>{handleDownload("/pdf/babscmaths.pdf","Maths Syllabus")}}>Maths Syllabus</NavDropdown.Item>
+                   
+            </NavDropdown>
       </NavDropdown>
       <NavDropdown title={<span className={`text-${showAdmission ? 'dark' : 'light'}`}>Admission</span>} id="about-us-dropdown" 
        show={showAdmission}

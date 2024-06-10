@@ -4,7 +4,7 @@ import {  useNavigate } from 'react-router-dom';
 import { Navbarhead } from '../../components/Navbar/Navbar';
 import Ragging from '../../utils/images/ragging.png'
 import Library from "../../utils/images/library.jpg"
-import Lab from "../../utils/images/lab.jpg"
+import Lab from "../../utils/images/labimg.jpg"
 import Auditorium from "../../utils/images/auditorium.jpg"
 import Cafetaria from "../../utils/images/cafeteria.jpg"
 import multipurposehall from "../../utils/images/multipurposehall.jpg"
