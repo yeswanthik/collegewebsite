@@ -72,7 +72,7 @@ Secretary </p></div>
                 Whenever I have made proposals for the progress and investigation of the organization, the management committee has encouraged me by accepting them, for which I am deeply grateful.
                   </p>
                   <p className='mb-3'>
-                  Considering the spread of education and the need of the area, the school was upgraded to higher secondary and then to high school level. Due to phased development, this institution, not only in Sadulshahar, but among the leading institutions of Rajasthan, holds a special place.
+                  Considering the spread of education and the need of the area, the school was upgraded to high school level and then to higher secondary. Due to phased development, this institution, not only in Sadulshahar, but among the leading institutions of Rajasthan, holds a special place.
                    </p>
                   <p className='mb-3'>
                   In the institution, efforts are made for the all-round development of the personality of the students and all efforts are made in such a direction that the students can find the path to their progress by adopting social diversities in practical life. I am sure that you will have all the necessary facilities available in the institution and you will get a suitable environment for study and contemplation. With best wishes for your bright future...
@@ -94,7 +94,7 @@ Chairman/Manager </p></div>
                 <p className='mb-3'>Our distinctive academic programmmes and innovative teaching methodologies encourage students to develop critical-thinking and learn through enquiry and reason, to exchange thoughts and ideas, to develop key personal and social values, to take ownership for her choices and to set goals to realize their own unique potential.   Authentic education implies an on-going, continuous interplay between the five moments of context, experience, reflection, action and evaluation between parents, students and lecturers.This is not to lead to mere information but to appropriation, integration into the very activity of Almighty within the created reality of our world but especially within each person. This then leads from information to transformation. <Link to={"/principal"}>Read More</Link></p>
                 
                     
-                    <p style={{fontWeight:"bold"}}>Dr. Jyothi Chhabra 
+                    <p style={{fontWeight:"bold"}}>Dr. Jyoti Chhabra 
     Principal  </p></div>
     
     </div>

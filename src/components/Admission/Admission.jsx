@@ -2,9 +2,10 @@ import { Button } from "react-bootstrap"
 import { Navbarhead } from "../Navbar/Navbar"
 import './Admission.css'
 import { useEffect, useState } from "react";
+import QRCode from "react-qr-code";
 
 function Admission(){
-    const [isSmallScreen, setIsSmallScreen] = useState(false);
+    const [, setIsSmallScreen] = useState(false);
 
     const handleDownload=()=>{
         const pdfPath = "pdf/admission-form.pdf";
@@ -24,6 +25,11 @@ function Admission(){
         document.body.removeChild(link);
         window.open(pdfPath);
     }
+    const handleQRCodeClick = () => {
+        // Specify the URL you want to open
+        const url = 'https://docs.google.com/forms/d/e/1FAIpQLScC9LIyhyyuHMr_g15iCJaFLZUajwAE-1UC3k-I5ym9TD7YqA/viewform';
+        window.open(url, '_blank');
+      };
     useEffect(() => {
         const checkScreenSize = () => {
           setIsSmallScreen(window.innerWidth < 768);
@@ -44,21 +50,60 @@ function Admission(){
 				</div>
 			</div>
 		</div>
-		<div className="row" >
-			<div className="col-md-12 wow fadeInLeft animated animated " style={{visibility: "visible", }}>
-                <div className="d-flex justify-content-between " style={{ width: "85vw" ,color:"#d86110"}}>		<p style={{textAlign: "justify"}}>
+        <div className="row d-flex justify-content space-between" >
+        <div className="col-md-3 d-flex flex-column text-center align-items-center  ml-auto d-block d-sm-none">
+        <Button  onClick={handleDownload} className=""  style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
+	Download Application</Button>
+    <div  onClick={handleQRCodeClick} style={{cursor:"pointer"}} className=" ">
+    <p style={{color:"#d86110"}}>Scan Qrcode </p>
+    <QRCode
+    size={128}
+    value={"https://docs.google.com/forms/d/e/1FAIpQLScC9LIyhyyuHMr_g15iCJaFLZUajwAE-1UC3k-I5ym9TD7YqA/viewform"}
+  />
+
+  <p style={{color:"#d86110"}}>online application</p> </div>
+    
+    </div>
+        <div className="col-md-9" style={{visibility: "visible", }}>
+        <div className="" style={{  color:"#d86110"}}>		<p style={{textAlign: "justify"}}>
 	<strong className="headingName col-xs-12">Minimum Eligibility for Admission:</strong></p>
-   {!isSmallScreen?<Button  onClick={handleDownload}  style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
-	Download Application</Button>:<button className="btn"  onClick={handleDownload}  style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
-	Download</button>} </div>
-	
-<p style={{textAlign: "justify"}}>
+    </div>
+    <p style={{textAlign: "justify"}}>
 For admission in the first year of Arts Faculty, it is mandatory to pass Senior Secondary (10+2) examination.
 	</p>
     <p style={{textAlign: "justify"}}>
 	For admission in the Science programmes, it is mandatory to pass the senior secondary examination with science.</p>
     <p style={{textAlign: "justify"}}>
-	Provisional admission will be given to the girl students appearing in the supplementary examination which will be considered regular only after they pass the supplementary examination. For girl students outside Rajasthan state, it is necessary to have completely passed 10+2.</p>
+	Provisional admission will be given to the girl students appearing in the supplementary examination which will be considered regular only after they pass the supplementary examination. For girl students outside Rajasthan state, it is necessary to have completely passed 10+2.
+    </p>
+    
+   
+        </div>
+        
+        <div className="col-md-3 d-flex flex-column align-items-end ">
+            <div className="d-none d-sm-block">
+
+           
+   <Button  onClick={handleDownload}   style={{textAlign: "justify", backgroundColor:"#d86110",color:"white"}}>
+	Download Application</Button>
+    <div  onClick={handleQRCodeClick} style={{cursor:"pointer"}} className="align-items-end " >
+    <p style={{color:"#d86110"}}>Scan Qrcode </p>
+    <QRCode
+    size={138}
+    value={"https://docs.google.com/forms/d/e/1FAIpQLScC9LIyhyyuHMr_g15iCJaFLZUajwAE-1UC3k-I5ym9TD7YqA/viewform"}
+  />
+
+  <p style={{color:"#d86110"}}>online application</p> </div>
+    
+    </div>
+    </div>
+   
+        </div>
+		<div className="row" >
+			<div className="col-md-12 wow fadeInLeft animated animated " style={{visibility: "visible", }}>
+               
+ 
+    <div>
     <p style={{textAlign: "justify"}}>
 	<strong className="headingName" style={{color:"#d86110"}} >Rules Regarding Admission:</strong></p>
 <p style={{textAlign: "justify"}}>Application for admission to the above classes will be considered done only after filling the prescribed form completely and submitting it, along with the prospectus, to the admission officer within the decided time period..</p>
@@ -173,7 +218,7 @@ in case of any lecturer being on leave or students having no lecture afterwards,
         
 	</div>
 
-    
+    </div>
 </div>
 }
 export default Admission

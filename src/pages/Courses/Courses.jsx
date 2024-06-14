@@ -2,22 +2,22 @@ import React,{useState} from 'react';
 import './Courses.css';
 import { Card } from 'react-bootstrap';
 import ArtCourseImg from '../../utils/images/art-course.jpg';
-import BusinessCourseImg from '../../utils/images/business-course.jpg';
-import ComputerScienceCourseImg from '../../utils/images/computer-science-course.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import { Navbarhead } from '../../components/Navbar/Navbar';
+import CLab from "../../utils/images/clab.jpeg"
+import labimg from '../../utils/images/img20.jpg'
 
 const courses = [
     {
         id: 2,
-        img: [BusinessCourseImg],
+        img: [labimg],
         title: 'SCIENCE',
         description: 'Three Year Degree Course in Science (B.Sc.) ',
         subjects:[ "Compulsory Subject for all courses", "1. Physics" ,"2. Chemistry","3. Mathematics", "4. Botany" ,"5. Zoology"],
     },
     {
         id: 3,
-        img: [ComputerScienceCourseImg],
+        img: [CLab],
         title: 'COMPUTER SCIENCE',
         description: 'Compulsory Subject (Only for first year girl students)',
         subjects:['1. Elementary Computer (Elem. Computer)','2. Environmental Std.' , '3. General Hindi/English']

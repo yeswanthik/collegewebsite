@@ -54,7 +54,7 @@ function Contact() {
         }
         var templateParams = {
             from_name: formData.from_name,
-            to_name: 'yeswanthi',
+            to_name: 'KGCSDS',
             phone_number:formData.phone_number,
             email: formData.email,
             address: formData.address,
@@ -62,11 +62,13 @@ function Contact() {
             message: formData.message
           };
         // Perform actions to save or submit form data (e.g., send data to server)
-        
+        //  emailjs.send("service_aetbtzo","template_q3dtlj8",templateParams,{
+         // publicKey: "cpJo0GaTOeR2zF_gW",
+        // service_z0ntjwq template_lb3fjbf    o0mdPVPajI3gQL12D
         // Reset form fields after submission (optional)
         if(formData.phone_number && formData.email){
-            emailjs.send("service_aetbtzo","template_q3dtlj8",templateParams,{
-                publicKey: "cpJo0GaTOeR2zF_gW",
+            emailjs.send("service_z0ntjwq","template_lb3fjbf",templateParams,{
+                publicKey: "o0mdPVPajI3gQL12D",
               }).then(
              
                     () => {
@@ -83,7 +85,7 @@ function Contact() {
                     },
                     (error) => {
                         toast.error('Something went wrong, Please try later', {
-                            position: toast.POSITION.TOP_CENTER,// Set toast position
+                           // position: toast.POSITION.TOP_CENTER,// Set toast position
                             autoClose: 3000, // Set auto close time in milliseconds (e.g., 3000 = 3 seconds)
                             hideProgressBar: false, // Set to true to hide progress bar
                             closeOnClick: true, // Close the toast when clicked
@@ -96,7 +98,7 @@ function Contact() {
         }
         else{
             toast.error('Please fill the  required fields', {
-                position: toast.POSITION.TOP_CENTER, // Set toast position
+               // position: toast.POSITION.TOP_CENTER, // Set toast position
                 autoClose: 3000, // Set auto close time in milliseconds (e.g., 3000 = 3 seconds)
                 hideProgressBar: false, // Set to true to hide progress bar
                 closeOnClick: true, // Close the toast when clicked

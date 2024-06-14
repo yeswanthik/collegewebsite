@@ -25,7 +25,7 @@ function Principal() {
                 <p className='mb-3'> KGC follows a process-oriented way of teaching wherein the lecturers provide students opportunities to explore wide variety of materials. The students enjoyment and learning through these explorations are given more importance than the final product or outcome.   Parental involvement in a child's education process is both a gift to your child and a gift to the school. This partnership is strongly encouraged and highly valued at KGC.   The practical experience of learning enables our students to leave our college daily with either something in their hand, something in their mind and especially something in their heart.   The distinctive and firm underlying philosophy of KGC is to provide Global Education while being steeped in the rich Indian educational tradition and core values. Our emphasis is to create a society of progressive, thinking individuals who will contribute to the intellectual development of the global Community.   We value igniting the spark of creativity and curiosity in our students.</p>
 
 
-<p style={{fontWeight:"bold"}}>Dr. Jyothi Chhadra, Principal </p></div>
+<p style={{fontWeight:"bold"}}>Dr. Jyoti Chhadra, Principal </p></div>
 
 </div>
 </div>

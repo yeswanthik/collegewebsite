@@ -207,7 +207,8 @@ const handleDownload=(path,name)=>{
           <div>
                 <h1>Khalsa Girls College</h1>
                 <h2>Sadul Shahar</h2>
-                <h3>Affiliated to Maharaj Ganga Singh University</h3>
+                <h3>Affiliated to Maharaj Ganga Singh University,</h3>
+                <h3>Bikaner</h3>
                 
             </div>
             </div>
@@ -215,7 +216,9 @@ const handleDownload=(path,name)=>{
             <div>
                 <h1>ਖਾਲਸਾ ਗਰਲਜ਼ ਕਾਲਜ</h1>
                 <h2>ਸਾਦੁਲਸ਼ਹਿਰ</h2>
-                <h3>ਮਹਾਰਾਜਾ ਗੰਗਾ ਸਿੰਘ ਯੂਨੀਵਰਸਿਟੀ ਨਾਲ ਸੰਬੰਧਤ</h3>
+                <h3>ਮਹਾਰਾਜਾ ਗੰਗਾ ਸਿੰਘ ਯੂਨੀਵਰਸਿਟੀ ਬੀਕਾਣੇਰ ਨਾਲ ਸੰਬੰਧਤ</h3>
+                
+
                 
             </div>
         </div>
@@ -223,7 +226,7 @@ const handleDownload=(path,name)=>{
             <div>
                 <h1>खालसा गर्ल्स कॉलेज</h1>
                 <h2>सादुलशहर</h2>
-                <h3>महाराजा गंगा सिंह विश्वविद्यालय से सम्बद्ध</h3>
+                <h3>महाराजा गंगा सिंह विश्वविद्यालय बीकानेर से सम्बद्ध</h3>
                
             </div>
         </div>
