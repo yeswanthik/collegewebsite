@@ -155,8 +155,8 @@ Receipt of college fees should be kept safe and presented when asked by the offi
 	The College has the following Rules:</div>
 <ul>
 <li>Attendance will be counted from the beginning of college classes</li>
-<li>than 75 percent attendance. According to provision 0-145, such regular girl students who have been stopped due to lack of attendance, can appear in the examination in the same year as             but, for that, they will have to pay additional fees prescribed by the University. According to provision 0-144, the principal has the right to give relaxation in attendance up to 3 percent and the Vice-Chancellor up to 3 percent, but special reason will have to be certified for the same.</li>
-
+{/* <li>than 75 percent attendance. According to provision 0-145, such regular girl students who have been stopped due to lack of attendance, can appear in the examination in the same year as             but, for that, they will have to pay additional fees prescribed by the University. According to provision 0-144, the principal has the right to give relaxation in attendance up to 3 percent and the Vice-Chancellor up to 3 percent, but special reason will have to be certified for the same.</li> */}
+<li>According to provision 0-145, regular girl students who have been stopped from appearing in the examination due to lack of attendance (less than 75 percent) can still take the examination in the same year. However, they will need to pay additional fees prescribed by the University.</li>
 <li>It will be the student's own responsibility to maintain his/her attendance.</li>
 <li>Every student will have to keep in mind the compliance of the orders of the Directorate and the University regarding changes in the rules related to minimum attendance.</li>
 <li>Students who participate in NCC parade or camp, sports competition or cultural events they have to get permission in written form from office in order to avail the benefit of the attendance.</li>
