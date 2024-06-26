@@ -88,8 +88,8 @@ export const Navbarhead = () => {
       >
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-          className="bg-light  "
-          style={{ fontSize: "0.8rem" }}
+          className="bg-light "
+          style={{ fontSize: "0.8rem",marginLeft:"10px" }}
         />
 
         <Navbar.Collapse id="basic-navbar-nav ">
